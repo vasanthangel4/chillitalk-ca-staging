@@ -29,7 +29,7 @@ $lang['app.second']= ascii_to_entities("<ul class='maincomon texzx'>
   <p>
 Enjoy FREE calls to other Chillitalk App users through your Android device and make cheap international calls and texts to everyone else. Make calls on the App just as you would with your phone and reduce the cost of your international calls. <br/> <br/> 
 
-<a href='http://chillitalk.co.uk/en/sign_up'>Sign-up</a>  in 30 seconds and start adding your international contacts<br/><br/>
+<a href='http://chillitalk.ca/en/sign_up'>Sign-up</a>  in 30 seconds and start adding your international contacts<br/><br/>
  </p>
  
  
@@ -54,7 +54,7 @@ Enjoy FREE calls to other Chillitalk App users through your Android device and m
   ");
     $lang['app.Androidtxts1']= ascii_to_entities("<a name='id0' style='color:#666666 !important;'><h1 class='maincomon'>PC </h1>
 	<div class='maincomon texzx imgabb1'>
-  <p><a href='http://chillitalk.co.uk/en/sign_up'>Download the FREE Chillitalk App</a> for your Windows desktop/laptop to make cheap international calls abroad and FREE calls to other Chillitalk App users. You can even use the PC App to send low-cost international texts. <br/><br/></p>");
+  <p><a href='http://chillitalk.ca/en/sign_up'>Download the FREE Chillitalk App</a> for your Windows desktop/laptop to make cheap international calls abroad and FREE calls to other Chillitalk App users. You can even use the PC App to send low-cost international texts. <br/><br/></p>");
  
 
 
@@ -74,9 +74,9 @@ $lang['app.Androidtxts3'] =  ascii_to_entities("<a name='id3' style='color:#6666
 <h1 class='maincomon'>Landline / Mobile Phone</h1>
 <div class='maincomon texzx imgabb2'>
 <p>Enjoy cheap international calls from a landline or mobile. We give you a unique Local Number for every international number you save on Chillitalk. Use this Local Number to call your contact abroad. This feature is available for over 
-<a href='http://chillitalk.co.uk/en/chillitalk_countries'>50 countries</a>.<br/><br/>
+<a href='http://chillitalk.ca/en/chillitalk_countries'>50 countries</a>.<br/><br/>
 
-<a href='http://chillitalk.co.uk/en/sign_up'>Sign-up</a>  in 30 seconds and start adding your international contacts<br/><br/>
+<a href='http://chillitalk.ca/en/sign_up'>Sign-up</a>  in 30 seconds and start adding your international contacts<br/><br/>
 </p>");
   
   
