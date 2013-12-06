@@ -182,7 +182,7 @@
                  
                        <ul class="childNav">
           <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/">Sri Lanka</a>  </li>
-          <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/philippines">Philippines</a>  </li>
+         
           </ul>
                  
                   </li>
@@ -377,7 +377,7 @@
                  
                        <ul class="childNav">
           <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/">Sri Lanka</a>  </li>
-          <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/philippines">Philippines</a>  </li>
+          
           </ul>
                  
                   </li>
