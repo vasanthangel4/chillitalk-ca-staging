@@ -18,7 +18,7 @@ In this Agreement the following terms shall have the following meanings:  <br><b
  	
 <b>Agreement</b> means the agreement between you and us for the Services which these terms and conditions apply to;<br><br>
 
-<b>Charges</b> are the prices that are incurred to make calls and send SMS either from landline or mobile phone.  These prices are pay per minute rates for calls and pay per text for SMS.  No Connection Charge applies.  The up to date prices for calls and SMS for the available countries are published on our website <a href="http://chillitalk.co.uk/en">www.chillitalk.co.uk</a>;<br><br>
+<b>Charges</b> are the prices that are incurred to make calls and send SMS either from landline or mobile phone.  These prices are pay per minute rates for calls and pay per text for SMS.  No Connection Charge applies.  The up to date prices for calls and SMS for the available countries are published on our website <a href="http://chillitalk.ca/en">www.chillitalk.ca</a>;<br><br>
 
 <b>Chillitalk</b> means registered trademark of Chillitalk Limited, a company registered in England and Wales under company number 05506630 registered office address 54 Marsh Wall, London E14 9TP;<br><br>
 
@@ -38,7 +38,8 @@ In this Agreement the following terms shall have the following meanings:  <br><b
 <b>Customer Services Team</b> means the support team who will be able to deal with any queries or questions relating to the Services as set out in our Website. Contact details are set out in clause 13;<br><br>
 <b>Free Credit </b> means an amount in GBP which we, in our absolutely discretion, provide to Users from time to time. <br><br>
 <b>International Call Rates </b>
-means the cost in UK Pounds Sterling (GBP) per minute or SMS to make calls from landline, mobile phone and to send SMS from mobile phone either through the Chillitalk Dial Up Mode or Chillitalk App.  Up to date International Call Rates are published on our website <a href="http://chillitalk.co.uk/en">www.chillitalk.co.uk</a>.  <br><br>
+means the cost in UK Pounds Sterling (GBP) per minute or SMS to make calls from landline, mobile phone and to send SMS from mobile phone either through the Chillitalk Dial Up Mode or Chillitalk App.  Up to date International Call Rates are published on our website <a href="http://chillitalk.ca/en">www.chillitalk.ca
+</a>.  <br><br>
 
 <b>International Destination Number </b> means the international number of the person you want to call; <br><br>
 
@@ -105,7 +106,7 @@ We offer the following Services to UK Customers Only: <br><br>
 (v) You should not use your UK mobile phone abroad to use our Services as you will be liable to pay your Service Providers Charges for Roaming and other charges that your Service Provider may apply.  We are not responsible or liable for any Service Provider Charges that may apply. It is your responsibility to check if Service Provider Charges apply and the rates.<br><br>
 (iv) When travelling abroad you can use our website (provided you have access to the internet) to find the Local Access Number for the Country you are currently visiting and if required the State/Region you want to call from to avoid expensive Roaming Charges.  You can use a local Mobile Phone or a local Landline number available from the Country you are calling from.  You should not use your UK mobile phone abroad to use our Services as you will be liable to pay Your Service Providers Charges for Roaming and other charges that Your Service Provider may apply.  We are not responsible or liable for any Service Provider Charges that may apply.
 <br><br>
-(viii) Local Access Numbers are available for selected countries only and an up to date list of countries are available on our website <a href="http://chillitalk.co.uk/en">www.chillitalk.co.uk</a>  The list is up dated from time to time.  High intercity call charges will apply if you do not select the correct city or nearest city to make the call.  Please contact Customer Services or check our website for further information.<br><br> 
+(viii) Local Access Numbers are available for selected countries only and an up to date list of countries are available on our website <a href="http://chillitalk.ca/en">www.chillitalk.ca</a>  The list is up dated from time to time.  High intercity call charges will apply if you do not select the correct city or nearest city to make the call.  Please contact Customer Services or check our website for further information.<br><br> 
 
 <b>(b) Chillitalk App in the UK</b><br><br>
 (i) You can download the Chillitalk App (Android Phone Only) to make International calls and to receive free calls to other Chillitalk App Users.  Making calls on the Chillitalk App is just like making calls from your mobile phone and/or landline;<br><br>
@@ -115,7 +116,7 @@ We offer the following Services to UK Customers Only: <br><br>
 1. First through the Chillitalk App mode then<br><br>
 2. Through the Dial Up Mode;<br><br>
 As stated above, making calls through the Chillitalk App must be connected to and through another Chillitalk App User in order to receive free International Calls.  The Chillitalk App will automatically try to contact the person you are trying to call through their Chillitalk App, if they are a Chillitalk App User.  If the Chilltalk App User is not online i.e. have access to Wi-Fi or 3G then the call will not be connected through the Chillitalk App.  The call will then automatically try to connect using the Dial Up Mode, you will receive a prompt message on your mobile phone hand set informing you of our Charges per minute to make the call to the International Destination Number;<br><br>
-(vi) If you have access to Wi-Fi or 3G (Service Provider Charges may apply) you can use the Chillitalk App.  It works anywhere in the world providing you have internet access Service Provider Charges may apply.  You can call from the Local Network in more than 50 countries.  Please check our website for a list of countries <a href="http://chillitalk.co.uk/en">www.chillitalk.co.uk</a><br><br>
+(vi) If you have access to Wi-Fi or 3G (Service Provider Charges may apply) you can use the Chillitalk App.  It works anywhere in the world providing you have internet access Service Provider Charges may apply.  You can call from the Local Network in more than 50 countries.  Please check our website for a list of countries <a href="http://chillitalk.ca/en">www.chillitalk.ca</a><br><br>
 <b>(c) Other Services</b><br><br>
 (i) When using the Dial Up Call Mode in the UK to make international calls through your mobile phone or landline you may be able to use your Local Network free minutes however this will depend on your Service Provider Price Plan that you or another other person have entered into with your Service Provider and Service Provider Charges may apply.  It is your responsibility to check whether your Service Provider will charge before using our Services;<br><br>
 (ii) You can carry out the following Services once you have logged into By My Account:<br><br>
@@ -142,8 +143,8 @@ As stated above, making calls through the Chillitalk App must be connected to an
 <b>7.	Charges, Free Credit and Payments</b><br><br>
 (a) To be able to use the Services you must ensure that you have sufficient Credit. In particular you will not be able to use a Service where you have no Credit or where the amount of Credit is less than the minimum charge for that Service. <br><br>
 (b) As Charges are incurred they will be deducted from the Credit of your Account. Charges incurred simultaneously are deducted simultaneously. In the event that the Credit is insufficient to meet all Charges due those contracted for earlier will receive preference thus Charges shall be applied in the order in which were ordered by you and shall be applied after Charges. <br><br>
-(c).You will be charged to use our Services at the rates applicable at the time that you use the Service. The Charges and current rates are available on our website at www.chillitalk.co.uk and can be obtained from our Customer Services Team.  You should check the applicable rate each time before making a call as our rates a variable and therefore change from time to time. <br><br>
-(d) You must pay for the Services in advance and do this by purchasing Credit online by visiting our website at. <a href="http://chillitalk.co.uk/en">www.chillitalk.co.uk</a>.  Once you have logged into My Account and have purchased Credit or any bundles or other offers or promotions offered by us from time to time this will be recorded against My Account.  Charges applied to your Account are deducted from the Credit attached to My Account.  <br><br>
+(c).You will be charged to use our Services at the rates applicable at the time that you use the Service. The Charges and current rates are available on our website at www.chillitalk.ca and can be obtained from our Customer Services Team.  You should check the applicable rate each time before making a call as our rates a variable and therefore change from time to time. <br><br>
+(d) You must pay for the Services in advance and do this by purchasing Credit online by visiting our website at. <a href="http://chillitalk.ca/en">www.chillitalk.ca</a>.  Once you have logged into My Account and have purchased Credit or any bundles or other offers or promotions offered by us from time to time this will be recorded against My Account.  Charges applied to your Account are deducted from the Credit attached to My Account.  <br><br>
 (e) Where you have more than one top up Credit recorded against My Account the Charges will be deducted from the available Credit on the earliest purchased top up Credit.<br><br>
 (f) You may purchase Credit using any payment method that we expressly offer at the time of your purchase.<br><br>
 (g) We may impose limits on the amount of Credit that can be purchased and may impose limits on the frequency with which you may purchase such Credit.<br><br>
@@ -236,8 +237,8 @@ As stated above, making calls through the Chillitalk App must be connected to an
 (i)	<b>Writing to:</b> Customer Services Team, Chillitalk 54 Marsh Wall, London E14 9TP;<br><br>
 (ii)		<b>Phone us:</b> Contact our Customer Services Team on 322 (Free from Chillitalk) or alternatively call 020 7179 0134 from any other mobile or landline (cost may vary depending on the phone service providers);
 <br><br>
-(iii)	<b>Online</b>: Visit our website www.chillitalk.co.uk log in to My Account click on "Customer Services" and fill in the online request form.  A member of the Customer Services team will usually get back to you within 2 working days of receipt. <br><br>
-(iv)<b>	Email to</b>: <a href="support@chillitalk.co.uk">support@chillitalk.co.uk</a><br><br>
+(iii)	<b>Online</b>: Visit our website www.chillitalk.ca log in to My Account click on "Customer Services" and fill in the online request form.  A member of the Customer Services team will usually get back to you within 2 working days of receipt. <br><br>
+(iv)<b>	Email to</b>: <a href="support@chillitalk.co.uk">support@chillitalk.ca</a><br><br>
 (b)	Our Customer Service Team is available from Monday to Sunday from 8:00am to 8:00pm. <br><br>
 
 	<b>14. Notices</b><br><br>
@@ -279,7 +280,7 @@ Your creation of an Account is further affirmation of your representation and wa
 <br><br>(c)	If you have reason to believe that your Account details have been obtained by another without consent, you should contact Chillitalk immediately to suspend your Account and cancel any unauthorised purchases that may be pending.  Please be aware that purchases can only be cancelled until they are dispatched.<br><br>  
 (d)	You agree that you are solely responsible for any calls or SMS made using your Account and for any transactions that take place on your Account and that you are solely responsible for ensuring the confidentiality of these.<br><br>
 (e)	You may change your password at any time online.<br><br>
-(f)	You agree to inform Customer Services of any unauthorised use of your Account within 24 hours of you discovering of such unauthorised use by emailing us at <a href="support@chillitalk.co.uk">support@chillitalk.co.uk</a>.<br><br>
+(f)	You agree to inform Customer Services of any unauthorised use of your Account within 24 hours of you discovering of such unauthorised use by emailing us at <a href="support@chillitalk.co.uk">support@chillitalk.ca</a>.<br><br>
 (g)	You agree to indemnify us against any and all claims and demands, costs, including legal fees, and other expenses incurred by us made by any third party in respect of any unauthorised use of your access details, password / Account access details and/or your Credit and/or Account where you do not comply with paragraph<br><br>
 
  (f) above.<br><br>
@@ -292,7 +293,7 @@ Your creation of an Account is further affirmation of your representation and wa
 <b>22.	Limitation of Liability</b><br><br>
 (a)	We are only liable to you as set out in this Agreement.  We have no other duty or liability to you;<br><br>
 (b)	Noting in this Agreement removes or limits for personal injury or death caused by something we have done or have failed to do;<br><br>
-(c)	Except as set out in clause 22.(a) and 22.(b), our entire liability to you for something we or anyone who works for us does or does not do will be limited to £3,000 for one incident or a maximum of £6,000 for a number of incidents within any 12 month period;<br><br>
+(c)	Except as set out in clause 22.(a) and 22.(b), our entire liability to you for something we or anyone who works for us does or does not do will be limited to $3,000 for one incident or a maximum of $6,000 for a number of incidents within any 12 month period;<br><br>
 (d)	We are not liable to you where we cannot fulfil our obligations under this Agreement as a result of something beyond our reasonable control and expectations;<br><br>
 (e)	We are also not liable to you where we are unable to provide the Services as a result of the maintenance of our Network;<br><br>
 (f)	Where you log in to your Account using another person's equipment or a service or equipment provided to the general public and you have not logged out of the Account correctly and or you lose your equipment that you use to access your Account and Services or it is stolen you remain liable for any Charges of any Services that are incurred whilst the equipment is not in your possession and you have not changed your password but before you tell us that it has been lost or stolen. This includes, but is not limited to cases where your Account is cloned;<br><br>
@@ -308,7 +309,7 @@ Your creation of an Account is further affirmation of your representation and wa
 (a) We may make reasonable amendments to the Agreement on giving you at least one months notice;<br><br>
 (b) If an amendment to the Services has, or is likely to cause, a material detriment to the Service and is not as a result of a requirement by any regulatory authority or for legal reasons, we will give you notice and unless you terminate this Agreement by giving us notice in writing during that period the amendments will apply once that notice period has run out;<br><br>
 (c) We may also change your Access Number and/or PIN Code where we reasonably require. Where we do so, we will give you prior notice and explain why;<br><br>
-(d) Amendments will also be published on the website www.chillitalk.co.uk and you agree that the publishing of these notices has the same effect as us giving you written notice by post.<br><br>
+(d) Amendments will also be published on the website www.chillitalk.ca and you agree that the publishing of these notices has the same effect as us giving you written notice by post.<br><br>
 <b>25.	General</b><br><br>
 (a) You may not transfer any rights or responsibilities under this Agreement without our expressed written consent;<br><br>
 (b) We may assign this Agreement at any time without your prior consent provided that such assignment does not affect the Services;<br><br>
