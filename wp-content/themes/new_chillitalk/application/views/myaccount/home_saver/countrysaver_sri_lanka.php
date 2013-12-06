@@ -14,7 +14,7 @@
 
 <h3 class="maincomon" style="margin-bottom:0px !important;float:left;display:inline;">How do I save?</h3>
 
-<p class="commfrt "> For only <?php echo $this->session->userdata('currency_symbol_web'); ?>15 enjoy 1500 minutes of talk time for 30 days to call to your nominated number in Sri Lanka. </p>
+<p class="commfrt "> For only  $15 enjoy 1500 minutes of talk time for 30 days to call to your nominated number in Sri Lanka. </p>
 <h3 class="rightcunt" style="margin-bottom:0px !important;">
 Who can I call?
 </h3>
