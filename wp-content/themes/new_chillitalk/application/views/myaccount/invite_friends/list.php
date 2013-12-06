@@ -20,7 +20,7 @@
         Bring a friend to Chillitalk and earn  $4 each time. Invite friends to <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/support/joining_chillitalk" class='ttxtblue'>join 
         Chillitalk</a> or using the Chillitalk App <br/>and we will send them an email on your behalf to 
         join Chillitalk. Once they join and top-up<br/> their account, you will 
-        receive a £4 credit bonus. You can do this as many times as you like. 
+        receive a $4 credit bonus. You can do this as many times as you like. 
         
         <br/>  <br/>
      
