@@ -44,7 +44,7 @@ If something goes wrong with your auto top-up, we’ll text and email you to let
 </p>
 <h3> How do I activate/deactivate auto top-up? </h3>
 <p>
-Please go to the <a href="http://chillitalk.co.uk/en/myaccount/top_up/">Top-up</a> page and select auto top-up OFF.
+Please go to the <a href="http://chillitalk.ca/en/myaccount/top_up/">Top-up</a> page and select auto top-up OFF.
 </p>
 
 
