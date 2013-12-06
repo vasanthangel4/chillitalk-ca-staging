@@ -11,7 +11,7 @@ $lang['register_number.second']=  ascii_to_entities("<h3>What is a Registered Nu
                How to Add a Registered Number?</h3>
                 
 <p class='rightcunt2'>
-•	Click <a href='http://chillitalk.co.uk/en/myaccount/registered_number/add/' class='ttxtblue'>‘Add Number’</a> <br> <br>  
+•	Click <a href='http://chillitalk.ca/en/myaccount/registered_number/add/' class='ttxtblue'>‘Add Number’</a> <br> <br>  
 •	Select the country your phone is from <br> <br>
 •	Enter a description: eg. ‘My Phone’ or ‘Office Phone’ <br> <br>
 •	Add the phone number <br>  </p>");
