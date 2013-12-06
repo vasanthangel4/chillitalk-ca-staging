@@ -14,32 +14,32 @@
 | path to your installation.
 |
 */
-$config['country_name_web'] = 'United Kingdom';
+$config['country_name_web'] = 'Canada';
 
-$config['country_code_web'] = 'GBR';
+$config['country_code_web'] = 'CAN';
 
-$config['country_code2_web'] = 'UK';
+$config['country_code2_web'] = 'CA';
 
-$config['rates_web'] = 'p/min';
+$config['rates_web'] = '&cent;/min';
 
-$config['call_rates_web'] = 'p/min';
+$config['call_rates_web'] = '&cent;/min';
 
-$config['sms_rates_web'] = 'p/SMS';
+$config['sms_rates_web'] = '&cent;/SMS';
 
-$config['app_code_web'] = 'CTPUK';
+$config['app_code_web'] = 'CTPCA';
 
-$config['prefix_phone_web'] ='44';
+$config['prefix_phone_web'] ='1';
 
-$config['currency_web'] = 'GBP';
+$config['currency_web'] = 'CAD';
 
-$config['currency_symbol_web'] = '£';
+$config['currency_symbol_web'] = '$';
 
-$config['site_code_web'] = 'LO2';
+$config['site_code_web'] = 'CA1';
 
-$config['plan_id_web'] = 146;
+$config['plan_id_web'] = 152;
 
-$config['user_flag'] = get_template_directory_uri().'/img/chillitalkusers.jpg';
+$config['user_flag'] = get_template_directory_uri().'/img/chillitalkusers-ca.jpg';
 
-$config['small_flag'] = 'ukflg';
+$config['small_flag'] = 'caflg';
 
-$config['big_flag'] = get_template_directory_uri().'/img/sign_up_flags/gb.png';
+$config['big_flag'] = get_template_directory_uri().'/img/sign_up_flags/ca.png';

@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://mundio-test.azurewebsites.net/';
+$config['base_url']	= 'http://chillitalk-ca-staging.azurewebsites.net/';
 
 /*
 |--------------------------------------------------------------------------
