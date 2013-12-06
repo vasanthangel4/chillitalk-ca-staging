@@ -1,0 +1,326 @@
+body 
+{
+     
+}
+
+p
+{
+    margin-top:20px;
+    padding:0px;
+   
+}
+.chillicontent
+{
+ width: 965px;
+ margin: 0px auto;
+}
+
+.chillimain
+{
+     width: 965px;
+     float:left;
+     display:inline;
+	 margin-top:140px;
+}
+
+.chillilogo1
+{
+    float: left;
+    display:inline;
+}
+
+.chilbor
+{
+border: none;
+
+}
+
+
+.chilbortxt
+{
+    width: 640px; 
+    float: right;
+	margin-top:16px;
+	display:inline;
+ 
+}
+
+.chilbo10r
+{
+    width: 450px;
+    margin-left:175px;
+    float:left;
+    display:inline;
+    margin-top:6px;
+}
+
+.chilbo1r 
+{    border  : none;
+     float:left;
+    display:inline;
+    
+}
+
+
+
+
+
+.chilbo2r
+{
+    border: none;
+    float:left;
+    display:inline;
+    margin-top: -10px;
+    margin-left: -9px;
+}
+.chilbo3r
+{
+border: none;
+float:left;
+display:inline;
+margin-left: 6px;
+}
+.chilbo4r
+{
+border: none;
+float:left;
+display:inline;
+margin-left: -1px;
+}
+
+.chilbo5r
+{
+    border: none;
+    float:left;
+    display:inline;
+    padding-right: 9px;
+}
+
+.chilbo6r
+{
+border: none;
+float:left;
+display:inline;
+margin-left: -4px;
+}
+
+.chilbo7r
+{
+    border: none;
+    float:left;
+    display:inline;
+    padding-right: 4px;
+}
+
+.chilbo8r
+{
+border: none;
+float:left;
+display:inline;
+margin-left: -12px;
+padding-right: 4px;
+margin-top: -10px;
+}
+.chilbo9r
+{
+width:322px;
+float:left;
+display:inline;
+ margin-top:0px;
+ }
+ .flagimg
+  {
+ width: 450px;
+  margin-left:135px;
+  float:left;
+  display:inline;
+   }
+ 
+  .flagimg1
+  {
+ width: 450px;
+  margin:40px 0 0 135px;
+  float:left;
+  display:inline;
+   }
+ 
+ 
+.chilbo9r h1
+ {
+   color:#666666;
+   font-family:Arial;
+   width:322px;
+   float:left;
+   display:inline;
+   font-size:30px;
+   margin:10px 0px 0px 0px;
+   
+ }
+ .chilbo11r p
+ {
+    color: #666666;
+    display: inline;
+    float: left;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: left;
+    width: 403px;
+    }
+.chilbo12r
+    {
+        float: right;
+        margin-right: 0px; 
+        color: #888;
+         width:518px;
+        font-family:Arial; 
+        font-size:16px;
+    }
+.chilbo12r a
+{
+    color: #888;
+}
+.flagimg a span,.flagimg1 a span
+{
+
+   color: #333333;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+
+
+}
+.flagimg a ,.flagimg a span,.flagimg1 a ,.flagimg1 a span
+{
+width:64px;
+float:left;
+display:inline;
+}
+.flagimg a,.flagimg1 a
+{
+ margin-right:46px;
+ }
+ .flagimg img, .flagimg1 img
+{
+ width:64px;
+ height:42px;
+
+}
+ .flagimg img:hover, .flagimg1 img:hover
+{
+ width:60px;
+ height:39px;
+
+}
+.austria
+{
+background-image: url("../img/countryselection/chilli-talk-Austria.png") !important;
+
+}
+.austria:hover
+{
+background-image: url("../img/countryselection/chilli-talk-Austria_over.png") !important;
+
+}
+.australia
+{
+background-image: url("../img/countryselection/chilli-talk-australia.png") !important;
+
+}
+.australia:hover
+{
+background-image: url("../img/countryselection/chilli-talk-australia_over.png") !important;
+
+}
+
+.canada
+{
+background-image: url("../img/countryselection/chilli-talk-canada.png") !important;
+}
+.canada:hover
+{
+background-image: url("../img/countryselection/chilli-talk-canada_over.png") !important;
+}
+.denmark
+{
+background-image: url("../img/countryselection/chilli-talk-Denmark.png") !important;
+}
+.denmark:hover
+{
+background-image: url("../img/countryselection/chilli-talk-Denmark_over.png") !important;
+}
+.france
+{
+background-image: url("../img/countryselection/chilli-talk-france.png") !important;
+}
+.france:hover
+{
+background-image: url("../img/countryselection/chilli-talk-france_over.png") !important;
+}
+
+.germany
+{
+background-image: url("../img/countryselection/chilli-talk-Germany.png") !important;
+}
+.germany:hover
+{
+background-image: url("../img/countryselection/chilli-talk-Germany_over.png") !important;
+}
+.italy
+{
+background-image: url("../img/countryselection/chilli-talk-italy.png") !important;
+}
+.italy:hover
+{
+background-image: url("../img/countryselection/chilli-talk-italy_over.png") !important;
+}
+
+.netherland
+{
+background-image: url("../img/countryselection/chilli-talk-Netherland.png") !important;
+}
+.netherland:hover
+{
+background-image: url("../img/countryselection/chilli-talk-Netherland_over.png") !important;
+}
+
+.sweden
+{
+background-image: url("../img/countryselection/chilli-talk-sweden.png") !important;
+}
+.sweden:hover
+{
+background-image: url("../img/countryselection/chilli-talk-sweden_over.png") !important;
+}
+.switzerland
+{
+background-image: url("../img/countryselection/chilli-talk-switzerland.png") !important;
+}
+.switzerland:hover
+{
+background-image: url("../img/countryselection/chilli-talk-switzerland_over.png") !important;
+}
+
+.USA
+{
+background-image: url("../img/countryselection/chilli-talk-USA.png") !important;
+}
+.USA:hover
+{
+background-image: url("../img/countryselection/chilli-talk-USA_over.png") !important;
+}
+
+.UK
+{
+background-image: url("../img/countryselection/chilli-talk-uk.png") !important;
+}
+
+.UK:hover
+{
+background-image: url("../img/countryselection/chilli-talk-uk_over.png") !important;
+}
+.flagimg1 a span,.flagimg a span
+ {
+  margin-top:7px !important;
+  padding-left:4px !important;
+ }

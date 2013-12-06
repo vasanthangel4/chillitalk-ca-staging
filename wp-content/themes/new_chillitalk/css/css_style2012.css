@@ -1,0 +1,79 @@
+  .js .helpText .icon, .js .helpTextOff .icon, .js .helpTextAlt .icon, .js .helpTextAltOff .icon
+        {
+            background-image: url('/images/questionlogin.png') !important;
+            background-repeat: no-repeat !important;
+            display: inline-block;
+            float: left;
+            height: 38px;
+            width: 36px;
+            margin: 3px 0 0 5px;
+        }
+        
+        .js .helpText, .js .helpTextOff, .js .helpAltText, .js .helpTextAltOff
+        {
+            display: inline-block;
+            position: absolute;
+        }
+        .js .helpText, .js .helpTextAlt
+        {
+            z-index: 100;
+        }
+        
+        .js .helpText .messageContainer, .js .helpTextAlt .messageContainer
+        {
+            position: absolute;
+            left: 35px;
+            top: -20px;
+        }
+        .js .helpText .messageContainerLeft, .js .helpTextAlt .messageContainerLeft
+        {
+            left: -215px;
+        }
+        .js .helpText .message
+        {
+            background-image: url('/img-web/common/popup.jpg') !important;
+            display: block;
+            float: left;
+            padding: 0px 0 0px 0;
+            position: relative;
+            width: 183px;
+            height: 80px;
+        }
+   
+        
+        .js .helpTextAlt .message
+        {
+            background-image: url('/images/popup.png') !important;
+            display: block;
+            float: left;
+            padding: 18px 0 54px 0;
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        .js .helpText .messageContainerLeft .message, .js .helpTextAlt .messageContainerLeft .message
+        {
+            background: url("help-bubble-left.png") no-repeat left top transparent;
+        }
+        .js .helpText .messageBottom, .js .helpTextAlt .messageBottom
+        {
+            background: url("help_bubblebottom.png") no-repeat left bottom transparent;
+            clear: both;
+            height: 10px;
+            width: 200px;
+        }
+        .js .helpText .messageContainerLeft .messageBottom, .js .helpTextAlt .messageContainerLeft .messageBottom
+        {
+            background: url("help_bubblebottom.png") no-repeat -9px bottom transparent;
+        }
+        .js .helpText .message p, .js .helpTextAlt .message p
+        {
+            font-size: 12px;
+            font-weight: normal;
+            margin: 0 0 3px 23px;
+            width: 160px;
+        }
+        .js .helpText .messageContainerLeft .message p, .js .helpTextAlt .messageContainerLeft .message p
+        {
+            margin: 0 0 3px 15px;
+        }

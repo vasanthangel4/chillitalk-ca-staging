@@ -1,0 +1,1336 @@
+@charset "utf-8";
+
+/*
+Theme Name: Chilli Talk 
+Theme URI: http://www.chillitalk.co.uk/
+Description:ChilliTalk is the low-cost way to call abroad. No SIM change, no PIN, no long numbers. Just cheap international calls from your mobile or landline.
+Author: Vectone Mobile
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+/* CSS Document */
+p,label span
+{
+   
+   text-align:justify;
+   word-spacing:0px;
+   line-height:18px;
+
+}
+p,label span,.bgmobile input[type="checkbox"]
+{
+   width:auto;
+ }
+.rates h1,.rates h3,.ratestable h3,.ratestable h4,.ratestable,.ratesflag  span,.rates2 p,b,.featurimg h3,.wtxt1,.wtxt,.bgmobile form,.h1left + p,.bold,.callhiswid  h5,.boldtxt,.bglocalstr h3
+{
+     color:#333333 !important;
+}
+.rates div+h3,.flagimg1 span,.boxrate h4,.searchinput,p,ul, li, dl, dd, dt, p,.dropcomon h1,.rates span,.flagimg1,.serv_rt div,
+.appbgcl label,ul.footer li a,ul.footer1 li a,.bgmobile,.flagcommon b,.bgmobile input[type="checkbox"] + label,.accover,.accover1,.leftmyaccount
+{
+    color:#666666 !important;
+    
+}
+.login_green,.leftsetting label,.leftsetting,.leftcom,.regspg div,.frcrditm h3,.ramycount,.locapg div,.redbtn,.mytd div input[type="text"],.greybtn,.boldtxt,.imgstr,.leftcom img,.locapg,.login a span,.bglocalstr,.bglocalstr img,.bglocalstr h3,.bglocalstr p,.leftcom h1,.rightcunt2, .leftcom h4, .dropright h4,footer,.regspg, p,.sec4 h5,.logo,.ratestable h3,.ratestable h1,.callhiswid  h5,.callhiswid span,.leftmyaccount,.leftmyaccount ul,.myaccount_table div,.myacc_smalltd,
+.b_rate h3,.clist,.serv_rt div,.appbgcl label,.hdisrate,.commfrt4 ul,#radios1,.greenblean ul,.imgappstore,.h1left +  p,.rightspan,.accover,.accover div,.accover1,.accover1 div,.padg,.rightcunt .login,.callhiswid,
+.appbgcl input,label span,.commfrt,.appbgcl,.lintxt,.bghomrate,.hdisrate span,.wtxt,.signup+ h3,.rightcunt1,.flagcommon,.flagcommon span,.flagcommon img,.clearall,.h1left,.rightcunt,hr,.myacc_small,input[type="checkbox"],
+.maincomon,.appbgcl div,.earnm h1,.earnm p,.rates,label,.rates p,.rates h1,.rates h3,.rates div,.ratestable,.divbttn,.secbutton div,.bgmobile1 hr,.ratesflag,.secbutton,.rightcunt  .signup,.rightcunt  .login, .callhiswid div,
+.rates2,.features,.featurimg p,.login_green,.leftalign,.centeralign,.lolnumber,.insvalue,.frcrditm h3,.frcrditm ,.frcrditm p,.featurimg,#checkboxOneInput ,.commfrt2,.earnm,.earnm h4,.bgmobile,.bgmobile1,.bgmobile1 p,.bgmobile1 img,.commfrt4,.greenblean,.greenblean p,.bgmobile1 form,.bgmobile1 input[type="checkbox"] + label 
+{
+   float:left !important;
+   display:inline !important;
+}
+.arrow,.flgbttn span,.flgbttn button,.button,.login,.signup ,ul.nav  li,.flgbttn img
+{
+    float:left !important;
+}
+
+.fb:hover
+{
+    color:#3B5998 !important;
+}
+.tw:hover
+{
+    color:#31aae1 !important
+}
+.rightcom,.rates2 .signup,.sflag a,.featu,.featurimg h3,.accover span,.rightlink,.imgvisa
+{
+ float:right!important;
+ display:inline !important;
+}
+
+.spanc1,.rightlink a:last-child,.rightlink1,.gotolink,.gotolink a
+{
+     margin-right:20px !important;   
+}
+b,.hdisrate span,.dropcomon2 input[type="search"],label,.dropcomon2  input[type="text"],.lintxt,.sflag a,.rates span,.flagimg1,.serv_rt div,.myaccount_table,.boldtxt,
+.flgbttn span,.earnm  span,.rbboxl,.appbgcl label,.login_green,.ramycount,.features span,.button,.login,.signup,ul.nav  li,.highlight,.greenblean ul ,.greenblean li span a,.accover div,.accover1 div,.bold,.redbtn,.greybtn
+{
+    font-weight:bold !important;
+    
+}
+.bghomrate,.button,.login,.signup,ul.nav  li,.highlight,.greenblean p,.h1left + p,.wtxt,.bgmobile1 .login
+{
+    font-size: 16px;
+}
+
+.button,.login,.signup,ul.nav  li,.highlight,.redbtn,.greybtn
+{
+     background: none repeat scroll 0 0 #02699f ;
+    font-family: arial;
+    line-height: 29px;
+    padding: 0px 12px;
+    position: relative;
+    text-decoration: none;
+    width:auto !important;
+}
+.button,.login,.signup,ul.nav  li,.highlight,.flgbttn,.redbtn,.greybtn
+{
+height: 31px;
+}
+
+.maincomon,.appbgcl div,.earnm h1,.earnm p,#maincontent,.sec4,.topup,.featurimg,.earnm h4,.bgmobile
+{
+   width:960px;
+  
+}
+
+li:nth-last-child(2).highlight a
+{
+    color:#6ea501 !important;   
+}
+
+.login,.signup
+{
+ padding:0 25px 0 20px !important;
+ }
+.login:hover,.signup:hover
+{
+   border:0 0 4px #02699F;
+
+}
+.login :after,.signup  :after,.green :after,.gery :after
+{
+  
+    border-style: solid;
+    border-width: 17px 0 14px 12px;
+    content: "";
+    height: 0;
+    top: 0;
+    width: 0;
+    position: absolute;
+}
+.green :after,.login :after
+{
+      border-color: transparent transparent transparent #6ea600 !important;
+}
+
+
+.gery :after
+{
+      border-color: transparent transparent transparent #999999 !important;
+}
+.signup,.signup:hover,.signup a,.signup li a:hover,ul.nav li.signup:hover,.redbtn
+{
+    background-color:#e52600 !important;   
+}
+.signup :after {
+    border-color: transparent transparent transparent #e52600;
+}
+
+.arrow
+{
+    border-left: 9px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 15px solid #999999;
+}
+.mainlogo1 h1,.commfrt2,.myacc_small h1,.bglocalstr h3, .bglocalstr p
+{
+    width:400px; 
+}
+
+.login,.button:hover,ul.nav  li:hover ,.green,.green a:hover,.green,.green:hover,.green a
+{
+    background-color:#6ea600 !important;   
+    
+}
+.blue,.blue a:hover,.blue,.blue:hover,.blue a,.accover span,.ramycount
+{
+     background: none repeat scroll 0 0 #02699f !important;
+}
+.blue :after {
+    border-color: transparent transparent transparent #02699f;
+}
+
+h4,.wtxt
+{
+    margin:6px 0 0; 
+}
+ h5
+{
+    margin:10px 0 0; 
+}
+.searchinput
+{
+    width:450px;
+    width:430px !ie;
+    width:430px\0;
+  
+}
+
+.searchinput1
+{
+    width:89px;
+
+}
+.smtxtbx,.emptyxt
+{
+    width:84px;
+}
+
+.sflag a,.lintxt,.underline
+{
+     text-decoration:underline;
+     
+}
+.dropright h4,.mytd div input[type="text"]
+{
+ width:100px;
+ }
+
+footer
+{
+
+    width:100%;
+    margin:40px 0px 0px 0px;
+    padding:12px 0px 12px 0px;
+    
+}
+.rates,.rates p,.rates h1,.rates h3,.rates div,.ratestable,.ratesflag
+{
+    width:650px;
+
+  
+}
+
+.ratestable h4,.countrate 
+{
+    width:129px !important;
+  
+}
+
+.ratestable h4, .countrate, .rbboxl,.accover1,.accover1 p, .bghomrate h4, .hdisrate, .hdisrate span,.flagcommon span,.myaccount_table div,.comfiv div,.centeralign,.ramycount
+{
+    text-align: center !important;
+}
+.ratestable h3, .flagimg
+{
+    width: 260px !important;
+}
+.flagimg1,#country,.rightspan,.regspg div,.centeralign
+{
+    width: 300px !important;
+}
+.r_search
+{
+    width: 252px !important;
+}
+
+.rates span, .flagimg1, .serv_rt div, .sflag a
+{
+    font-family: helvetica;
+}
+
+.ratesflag, .appbgcl,.bgmobile,.rbboxl,footer,.dropcomon2,.logincoom
+{
+    background-color: #f2eee6;
+}
+.ratesflag span,option
+{
+    line-height: 24px;
+}
+.signup + h3
+{
+    width: 630px;
+}
+.rates2
+{
+    width: 308px;
+    margin: 134px 0px 0px 0px;
+}
+
+.rbboxl
+{
+
+    font-size: 60px;
+    height: 51px;
+    line-height: 43px;
+    padding: 16px;
+    width: 170px !important;
+    margin: 0px 10px 0px 0px;
+}
+
+.boxrate h3
+{
+    width: 213px !important;
+}
+
+a.toplink
+{
+    background-image: url("http://chillitalk.azurewebsites.net/wp-content/themes/new_chillitalk/img/arrow-up.png");
+ 
+    bottom: 30px;
+    cursor: pointer;
+    height: 50px;
+    position: fixed;
+    right: 34px;
+    width: 50px;
+}
+.appbgcl label, .rates span, .flagimg1, .serv_rt div, .sflag a, .ukflg, label, .lintxt,.bgmobile,.boldtxt
+{
+    font-size: 18px !important;
+}
+
+
+  .bghomrate,.button.blue a,.button.blue, .bghomrate h4, .hdisrate, .hdisrate span, .login a,.login a:link, .signup a, .login:hover,.greenblean b, .signup:hover, .button:hover, .signup_sl, .button, .login,.greenblean h1,.greenblean,
+ .signup, ul.nav li a, .sflag, .flgbttn button, .ukflg,.highlight a:hover,ul.nav li.highlight:hover,ul.nav li:nth-last-child(2) a:hover,ul.nav li:nth-last-child(1) a:hover,.highlight:nth-last-child(3) :hover,.highlight:nth-last-child(4)   :hover,.highlight:nth-last-child(5)  :hover,.highlight:nth-last-child(6)  :hover,.highlight:nth-last-child(7)  :hover,.greenblean p,
+ .greenblean ul li,.login_green a,.login_green,.greenblean li span a,.accover span,.myaccount_table,.redbtn,.greybtn,.frcrditm h3,.frcrditm ,.frcrditm p,.ramycount h1
+{
+    color: #fff !important;
+    
+ 
+}
+a:link,a:visited,a:hover,a:active  {color:#fff !ie; } /* unvisited link */  
+a:link,a:visited,a:hover,a:active  {color:#fff\0; } /* visited link */  
+a:link,a:visited,a:hover,a:active  {color:#0088CC\9\0; } 
+
+.dropright h4,.sel_rate,.sflag a,.rbboxl span,.serv_rt div ~ div,.features span,
+ul.footer li a:hover, ul.footer1 li a:hover,.rbboxl,.highlight a,.highlight:nth-last-child(3) a,.highlight:nth-last-child(4) a,.highlight:nth-last-child(5) a,.highlight:nth-last-child(6) a,.highlight:nth-last-child(7) a
+{
+    color:#02699f !important;
+      
+}
+.bghomrate
+{
+    background-image: url('http://chillitalk.azurewebsites.net/wp-content/themes/new_chillitalk/img/bgrate.png');
+    width: 620px;
+    height: 217px;
+    margin: 0 0 0 3px;
+    padding: 4px 0px 12px 0px;
+}
+.bghomrate h4, .hdisrate, .hdisrate span
+{
+    width: 195px;
+}
+
+.hdisrate span
+{
+    font-size: 64px;
+    margin: 24px 0;
+}
+
+.padfo,.earnm,#radios1
+{
+    width: 936px;
+}
+.boxrate h3, .b_rate h3, .clist li,.bgmobile1 input[type="checkbox"] + label,.myaccount_table div:first-child,.leftalign
+{
+    text-align: left !important;
+}
+.flgbttn, .right, .sec4 h4
+{
+    float: right !important;
+}
+
+.highlight, #checkboxOneInput + label span,.highlight:nth-last-child(1) a,.greenblean  li span,.mytd
+{
+    background: none !important;
+    background: none !ie !important;
+}
+
+
+ul.footer li, #checkboxOneInput + label span,.bgmobile form p,.frcrditm p,.frcrditm h3
+{
+    padding: 0px !important;
+}
+
+p, label span,#checkboxOneInput + label span,.bgmobile h3 span,.greenblean li span
+{
+    font-weight: normal !important;
+}
+.flgbttn button, .submit img,.accover1 div, .highlight :after, .submit,.accover div:nth-last-child(1),.callhiswid div:nth-last-child(1),.rightcunt h1,.bdno
+{
+    border: 0px;
+}
+p, label span, .sec4 h4,.commfrt4,.bold
+{
+    font-size: 14px;
+}
+
+.ukflg,.searchinput1  
+{
+    color:#000 !important;
+}
+.flagcommon,.flagcommon span
+{
+    width:145px;
+ 
+}
+.flagcommon,.flagcommon span,.mytd.comfiv div
+{
+       font-size:11px !important;
+}
+.rates2co,.sec4 a,.highlight:nth-last-child(1) a,.fb,.tw,.flgbttn .csname
+{
+    color: #E52600 !important;
+}
+
+.bgmobile1 input[type="checkbox"] + label,.bgmobile1 input[type="checkbox"]  
+{
+   text-indent:4px;
+}
+
+.rlabel
+{
+    text-align:right !important;
+}
+.commfrt4 li
+{
+    list-style-type:decimal;
+    margin:0px 0px 0px 18px;
+}
+#h1,.h1left + p
+{
+    width:933px;
+}
+
+.sflag
+{
+    background-color:#fff;
+}
+
+.leftmyaccount
+{
+    width:198px;
+    border-right:1px solid #beb39d;
+    margin:7px;
+    min-height: 1256px;
+}
+
+.accover span
+{
+    padding:3px;
+    border-radius:8px;
+    
+}
+
+.accover .login,.accover span,.myaccount_table div,.rightcunt .login,.rightcunt .signup.blue,.accover p
+{
+        font-size:12px;
+}
+
+.rightcunt h1
+{
+    margin:20px 0px 0px;
+    height:49px;
+    
+
+}
+.rightcunt h1,.leftsetting
+{
+border-bottom:2px dashed #FFFFFF;
+}
+.rightcunt h1,.rightcunt,.rightcunt hr,.rightcunt .bgmobile1 hr,.rightcunt .bgmobile1 form,rightcunt
+{
+       width:738px;
+}
+.myaccount_table
+{
+    padding:6px 0px 6px 6px;
+    height:20px;
+}
+.myaccount_table,.bglocalstr
+{
+ background-color: #d6cdbc;
+ }
+.myaccount_table,.callhiswid,.rightcunt1,.regspg,.locapg,.bglocalstr
+{
+     width:689px;
+}
+.myaccount_table div
+{
+    width:133px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  
+    
+}
+
+
+
+
+.rightcunt .login,.myaccount_table div,.signup,.regspg label,.rightcunt2,.boldtxt,.redbtn,.greybtn,.locapg div,.bglocalstr p,.bglocalstr h3,.rightcunt  .commfrt,.wtxt + p,.leftsetting input[type="checkbox"] + label
+{
+      text-indent:0px;
+}
+.mytd div
+{
+   color:#4c4a4b;
+    text-shadow:none !important;
+}
+
+.leftmyaccount ul li,.mytd
+{
+    border-bottom:1px dashed #C2B3A0;
+}
+.rightcunt,.rightcunt1
+{
+    text-indent:30px;
+    font-family:Arial;
+}
+
+.bgnone
+{
+   background-color:#bfb4a0;
+}
+
+.myacc_smalltd
+{
+    width:270px;
+}
+
+.myacc_small h3,.myacc_smalltd h3
+{
+    font-size:21px;
+}
+.rightcunt  .signup ,.comfiv div, input[type="checkbox"] + label,.regspg .login,.leftsetting select
+{
+   width:auto !important;
+ }
+ 
+ .myacc_smalltd .login, .myacc_small .login
+ {
+     margin-left:10px !important;
+ }
+ .comfiv div
+ {
+    width:108px  !important;
+ }
+ 
+
+
+ .comfiv div:nth-last-child(7)
+ {
+     width:30px !important;
+ }
+ .accover,.callhiswid,.regspg,.locapg,.accover1
+{
+    background-color:#f9f9f9;
+    border:2px solid #e4e0d7;
+   
+}
+
+.callhiswid div:nth-last-child(1),.callhiswid div:nth-last-child(3) span
+{
+    width:284px;
+}
+
+.callhiswid div:nth-last-child(2) p
+{
+ width:125px;   
+}
+
+.gery,.greybtn
+{
+    background:#999999 !important;
+}
+
+.lolnumber
+{
+    background-image:url('../../img/my_search.png');
+    background-repeat:no-repeat;
+    background-position:right;
+}
+.txtwidth
+{
+    width:84px !important;
+}
+.regspg .login 
+{
+    margin-bottom:10px !important;
+}
+.frcrditm
+{
+    width:306px;
+ 
+}
+
+.ramycount
+{
+    border: 2px solid #FFFFFF;
+    border-radius: 66px 66px 66px 66px;
+    width: 173px;
+    
+}
+
+.leftsetting select,.csradio
+{
+  margin-right:12px;
+}
+
+label
+{
+    cursor:normal !important;
+}
+.bgmobile1 .login
+{
+    font-size: 16px !important;
+}
+
+.flgbttn  .csname, .flgbttn .arrow
+{
+    margin-right:25px;
+}
+/*  ================================================= style =======================================  */
+
+body,#maincontent,.padfo
+{
+    margin:auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li, dl, dd, dt, p,.dropcomon h1 {
+ 
+    padding: 0;
+  
+}
+
+.ul.footer1,ul.footer li,.sec1,.sec1 h4,ul, li, dl, dd, dt, p,.dropcomon h1,.sec2 img,.frcrditm p
+{
+       margin: 0;
+}
+ul {
+    list-style: none outside none;
+}
+a:hover {
+    text-decoration: none;
+}
+img, embed, object, video {
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+.flgbttn 
+{
+  
+    margin:5px 0px 0px 0px;
+   
+}
+
+.flgbttn img
+{
+    max-width: 100%;
+	height: auto;
+   
+}
+.flgbttn span
+{
+    margin:0px 0px 0px 2px;  
+}
+.arrow
+{
+
+    height: 0;
+    margin: 4px 0 0 6px;
+    width: 0;
+    
+}
+
+.button,ul.nav  li,.redbtn,.greybtn
+{
+   
+    margin:0px 3px  0px 0px;
+    
+}
+.nav
+{
+     margin:15px 20px 0px 0px;
+     
+}
+
+.login,.signup
+{
+    margin-right: 14px !important
+}
+.login :after,.signup :after
+{
+     
+ right: -12px;
+}
+
+.mainlogo,.serv_rt 
+{
+   margin:5px 0px 0px 0px;
+   
+}
+.mainlogo img
+{
+   margin:0px 20px 0px 74px;
+}
+.mainlogo1
+{
+    width:400px;
+}
+.mainlogo1 img
+{
+      margin:32px 0 0 !important;
+      
+}
+.dropcomon1
+{
+    margin:50px 0 10px 0;
+}
+
+.dropcomon h1,.dropcomon h4,.dropcomon,.largbox
+{
+    width:290px;
+}
+.dropcomon2
+{
+    
+    width:630px;
+    padding:18px;
+}
+
+
+.submit 
+{
+   
+    position:relative;
+}
+.submit img
+{
+  
+    max-width: 100% !important;
+	height: auto !important;
+    
+}
+
+.right
+{
+  
+    margin:10px 0px 0px 0px;
+    
+}
+.dropright
+{
+    padding: 0px 18px 15px 18px;
+}
+.dropright section,.bgmobile1,.secbutton,.bgmobile1 hr
+{
+    width:600px;
+    
+}
+
+.dropright img
+{
+    margin:-18px 0 7px;
+}
+
+.sec1,.sec1 h4
+{
+    width:326px;
+  
+}
+
+
+.sec1 p
+{
+    margin:15px 14px 10px 0 !important;
+}
+.sec2
+{
+    
+     margin:0px 0px 0px 20px;
+}
+.sec2,ul.footer li,ul.footer 
+{
+ width:214px;
+}
+ul.footer 
+{
+    margin:36px 0 0; 
+}
+
+ul.footer1
+{
+     padding:36px 0px 0px 0px;
+}
+
+
+.sec4 h4
+{
+
+    margin-right:72px;
+    
+}
+
+.rates,.ratesflag,.earnm,.commfrt input[type="text"],.commfrt label,.bgmobile,.secbutton,.rightspan
+{
+   
+    margin:10px 0px 10px 0px;
+   
+}
+.rates h3,.appbgcl label,label,.bgmobile h3,.rightspan,.boldtxt
+{
+    line-height:30px;
+}
+
+
+.rates p,.b_rate + h3,.sec2 img
+{
+    margin-top:15px;
+    
+}
+
+.rspan3
+{
+   margin:0px 10px 0px 95px;
+}
+
+.ratestable h4,.rates h1,.apps h3
+{
+     margin:18px 0px 0px 0px;
+}
+.flagimg span,.flagimg1 span
+{
+    margin:0px 0px 0px 10px;
+    
+}
+
+.rates2 .signup
+{
+    margin:0 0 10px 40px;
+}
+ 
+.rates2 p
+{
+    margin:10px 0px 0px 33px;
+    
+}
+.b_rate,.rightcunt .login
+{
+    width:690px;
+}
+.b_rate h3
+{
+    width:171px;
+    line-height:25px;
+    margin:3px 0px 0px 0px;
+}
+.clist,.clist li,.clist ul 
+{
+    width:190px;
+  
+}
+.clist li
+{
+      margin:0px 0px 0px 25px;
+      line-height:21px;
+}
+.clist ul 
+{
+   margin:39px  0px 0px 0px;
+   margin:-15px 0px 0px 0px !ie;
+   
+}
+.serv_rt div
+{
+    margin: 3px 0 3px 7px;
+    width: 204px !important;
+}
+
+.appbgcl
+{
+    width:940px;
+    padding:15px;
+}
+.signup_sl
+{
+   
+   
+    background-color: #FF594F;
+    background-image: linear-gradient(to bottom, #FF594F 0px, #fE594F 100%);
+    border-color: #FF594F #FF594F #FF594F;
+}
+
+
+.signup_sl,.login_green
+{
+  padding: 9px 15px 8px;
+  box-shadow: 0 0 2px #FF594F inset, 0 1px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+ -moz-border-bottom-colors: none;
+ -moz-border-left-colors: none;
+ -moz-border-right-colors: none;
+ -moz-border-top-colors: none;
+ -moz-box-sizing: initial;
+ -moz-user-select: none;
+ border-image: none;
+ border-radius: 4px 4px 4px 4px;
+ border-style: solid;
+ border-width: 1px;
+ font: bold 13px/13px Helvetica,Arial,sans-serif;
+ margin:8px 0 0 254px;
+}
+.signup_sl:hover
+{
+    background-color: #eF594F;
+    border-color: #eF594F #eF594F #eF594F;
+    color:#ccc;
+    
+}
+.login_green
+{
+    background-color: #6EA600 ;
+    background-image: linear-gradient(to bottom, #5EA600  0px, #4EA600  100%);
+    border-color: #6EA600  #6FB600  #6FB600;
+     display: inline !important;
+     box-shadow: 0 0 2px #6FB600 inset, 0 1px 0 rgba(0, 0, 0, 0.1);
+    float: left !important;
+    color:#fff;
+    font-weight:bold;
+    cursor:pointer;
+    margin:0px;
+}
+
+.login_green:hover
+{
+    background-color: #5EB600;
+    border-color: #5EB600 #5EB600 #5EB600;
+    color:#ccc;
+    
+}
+
+#radios1
+{
+   margin:0 0 15px 100px;
+}
+#radios1 input[type="radio"]
+{
+    margin:4px 0 0;
+    
+}
+.appbgcl  input[type="text"], .appbgcl  input[type="email"], .appbgcl  input[type="password"]
+{
+    margin:0px 10px 0px 10px;
+    
+}
+.appbgcl  input[type="text"],select, input[type="file"],.smtxtbx, input[type="month"],.dropcomon2 input[type="search"],.dropcomon2  input[type="text"],input[type="text"],input[type="password"],.smtxtbx,textarea, input[type="email"]
+{
+border-radius:0px;
+}
+.appbgcl input[type="text"]:focus,input[type="text"]:focus,input[type="month"]:focus,input[type="password"]:focus,.dropcomon2 input[type="search"]:focus,.dropcomon2  input[type="text"]:focus,input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,.smtxtbx:focus,textarea:focus 
+{
+ border:1px solid #6EA600;
+}
+.appbgcl label,label
+{
+
+    width:217px;
+}
+.ukflg
+{
+    background-image:url('http://192.168.1.230:2001/img/flag-en.gif');
+    background-repeat:no-repeat;
+    background-position:6px 9px;
+    text-indent:18px;
+}
+.appbgcl input[type="checkbox"],#checkboxOneInput
+{
+    border:1px solid #ccc !important;
+    height:12px !important;
+    width:15px !important;
+    margin:9px 9px 0;
+    
+}
+#checkboxOneInput
+{
+    margin:5px 8px 0!important;
+}
+.appbgcl div,.hdisrate
+{
+    margin:5px  0px 0px 0px;
+}
+
+.earnm span
+{
+    background-color:#DCDFDE;
+    padding:5px;
+}
+.earnm li,.earnm + .signup,.commfrt4 ul
+{
+    margin:13px 0px 0px 0px;
+}
+.imgstr
+{
+    margin:-5px 0px 0;
+}
+
+
+.features p,.commfrt4
+{
+    width:235px;
+    
+}
+.features p
+{
+    margin:6px 27px;
+}
+
+.commfrt4
+{
+        margin:6px 46px;
+}
+
+.featu
+{
+    margin-right:100px !important;
+}
+.featurimg 
+{
+     background: url("http://192.168.1.230:2001/img/Chillitalk_web_rates.jpg") no-repeat scroll right top transparent;
+
+}
+.featurimg p,.commfrt,.commfrt2 p,.wtxt + p,.bglocalstr img,.lstxt,.bglocalstr,.frcrditm h3,.frcrditm p,.frcrditm div,.insvalue,.imgvisa,.locapg,.callhiswid,.regspg div,.rightcunt2, .regspg,.commfrt2 div,.bgmobile form label,.bgmobile form h3,.h1left,.h1left + p,.myaccount_table,.myacc_smalltd ,.rightcunt .bgmobile1 input[type="checkbox"]
+{
+    margin-left: 30px !important;
+
+    
+}
+.featurimg p,.commfrt,.bgmobile form p
+{
+    width: 517px !important;
+    
+ }
+.featurimg h3
+{
+    width:532px;
+    margin:118px 294px 0px 0px;
+    height:195px;
+}
+.featurimg + h3,.signup+ h3
+{
+    margin:30px 0px 0px 0px;
+}
+#checkboxOneInput + label span,.commfrt2 p
+{
+    width:361px; 
+
+}
+
+
+.bgmobile1,.sebd
+{
+    border-right:2px dashed #FFFFFF !important;
+  
+}
+
+.rightcunt .bgmobile1
+{
+     border:0px !important ;
+}
+.bgmobile1 hr,hr
+{
+    border:0px;
+    border-top:2px dashed #FFFFFF !important;
+    outline:0px;
+    
+}
+
+.secbutton div
+{
+    margin:0px 0px 10px 10px;
+}
+.flagcommon
+{
+    margin:0 44px 0 0;
+}
+.greenblean,.frcrditm
+{
+    background-color:#77aa0f;
+    padding:0px 0 0 24px;
+    border: 1px solid #FFFFFF;
+    outline: 1px solid #77AA0F;
+}
+.greenblean h1,.frcrditm h3
+{
+   text-shadow: 3px 2px #285700;
+}
+.greenblean
+{
+
+    margin-bottom:20px;
+}
+.bgmobile form,.greenblean h1
+{
+        width:571px;
+}
+
+.bgmobile1 input[type="checkbox"] 
+{
+    margin:10px 2px 0 18px;
+}
+
+textarea  
+{
+    resize:none;
+    height:95px;
+}
+option
+{
+    padding: 1px 0 0 14px;
+}
+#h1
+{
+    margin:20px 0px 20px 0px;
+}
+.childNav
+{
+    display:none;
+}
+
+.greenblean ul 
+{
+ margin:-20px 25px 20px;
+ list-style-type:decimal;   
+}
+
+.clearall
+{
+     margin:10px 0px 10px 30px !important;
+}
+.locapg .login
+{
+    margin:10px 0px 10px 0px !important;
+}
+
+.accover,.accover1 
+{
+     width:188px;
+     border-radius:8px;
+     
+}
+.accover
+{
+  
+     height:86px;
+}
+.accover div,.leftmyaccount ul
+{
+     width:183px;
+}
+
+
+.accover div,.accover1 div
+{
+    padding:3px 0 0 5px;
+    border-bottom:1px solid #e4e0d7;
+    
+}
+
+.accover span
+{
+    margin:0 20px 3px 0px;
+}
+
+.accover .login,.leftmyaccount ul
+{
+     margin:8px 0px 0px 8px;
+}
+.rightcunt hr,.ramycount
+{
+     margin:10px 0px 10px 0px;
+}
+.leftmyaccount ul li
+{
+
+    height:30px;
+    color:#898788;
+    line-height:26px;
+}
+
+
+.padg
+{
+    padding:6px 13px 0;
+}
+.rightcunt .login,.rightcunt  .signup.blue,.rightcunt  .signup.green
+{
+    margin:20px 0px 0px 30px;
+} 
+
+.myacc_small
+{
+    width:400px !important;
+}
+.myacc_small div:last-child 
+{
+    width:40px;
+}
+
+.tdlast,.mytd.comfiv div
+{
+    line-height:11px;
+}
+
+.comfiv div img
+{
+      margin:-5px -5px 0px;
+}
+
+.callhiswid,.callhiswid div
+{
+    height:115px;
+  
+    
+}
+
+.callhiswid div,.locapg div
+{
+ border-right:1px solid #E4E0D7;
+}
+.callhiswid div,.callhiswid h5
+{
+ width:200px;
+}
+
+.rightlink
+{
+    margin:-35px 10px 10px 0;
+
+}
+
+.locapg div
+{
+    margin:0px;
+    padding:0px;
+    width:262px;
+}
+.locapg div input,.boldtxt,.redbtn,.greybtn
+{
+    margin:10px;
+}
+#commcheck
+{
+    margin:20px 10px 0px 0px;
+}
+
+.login a span
+{
+    font-size:26px;
+}
+
+.bglocalstr img
+{
+    margin-right:20px;
+}
+
+.mytd div input[type="text"]
+{
+
+   margin-top:-5px;
+}
+.accover1 div,.accover1 p
+{
+    width:140px;
+}
+
+.accover1
+{
+    width:148px;
+}
+
+.wtxt1
+{
+    font-size:18px;
+}
+
+.wtxt + p
+{
+    margin-top:10px;
+    width:612px;
+}
+
+.leftsetting input[type="text"],.leftsetting label
+{
+    width:170px !important;
+}
+
+.leftsetting,.leftsetting h3, .leftsetting label
+{
+    width:367px;
+}
+
+.leftsetting .login
+{
+    margin:11px 0 20px 179px;
+}
+
+.leftsetting 
+{
+    height:321px;
+}
+.csradio
+{
+    width:30px;
+}
+.leftsetting label
+{
+ font-size:16px !important;
+}
+.nnbrd
+{
+    border: 0px;
+    height:auto;
+    width:504px;
+}
+
+.login > button[type="submit"]{
+	color:#fff;
+	background:transparent;
+	border:none;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.signup.blue > button[type="submit"]{
+	color:#fff;
+	background:transparent;
+	border:none;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.signup > button[type="submit"]{
+	color:#fff;
+	background:transparent;
+	border:none;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.login_green > button[type="submit"]{
+	color:#fff;
+	background:transparent;
+	border:none;
+	font-weight:bold;
+	font-size:16px;
+}
