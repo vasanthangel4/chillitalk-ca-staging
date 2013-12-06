@@ -3,7 +3,7 @@
         class="tryus rightcom txtsignup txts">Sign up now! First call free</a>
 <div class="flagall">
 <h1 class="flagall txtsh3 txtbndles"> The hottest deal to call the Sri Lanka!</h1>
-<p>&nbsp;&nbsp;With our Sri Lanka Home Saver, &#163;15 gives you a MASSIVE 1500 minutes!
+<p>&nbsp;&nbsp;With our Sri Lanka Home Saver, $15 gives you a MASSIVE 1500 minutes!
 <br />
 &nbsp;&nbsp;Wow! That's a big saving - even on our standard low rates to the Sri Lanka. 
 <br /><br />
@@ -12,7 +12,8 @@
 Share your minutes with the whole family </h3>
 <ul class="commoncssts">
 <li>Share your minutes between any 3 mobile numbers and one landline number </li>
-<li>Share out your 1500 Sri Lanka minutes with your husband, wife, sister or brother, so that everyone can keep in touch 
+<li>Share out your 1500 Sri Lanka minutes with your husband, wife, sister or brother, 
+so that everyone can keep in touch 
 </li>
 </ul>
 <h3 class="flagall txtsh3">
@@ -45,7 +46,7 @@ Already a Chillitalk customer?  </h3>
     
     <h3 class="flagall txtsh3">
 Rather talk to a real person first?  </h3>
-<p>Our dedicated Home Saver team is waiting for your call on <strong>020 7179 9980.</strong></p>
+<p>Our dedicated Home Saver team is waiting for your call on <strong>6476940946.</strong></p>
 <h3 class="flagall txtsh3">
 What are the Conditions?  </h3>
 
