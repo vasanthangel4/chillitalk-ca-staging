@@ -4,8 +4,7 @@
 <nav class="leftmyaccount">
     <section class="accover">
         <div>
-            Available credit <span>  $
-			<?php echo round($this->session->userdata('total_bal'), 2); ?> 
+            Available credit <span>  $ <?php echo round($this->session->userdata('total_bal'), 2); ?> 
             </span>
         </div>
         <div class="login">
