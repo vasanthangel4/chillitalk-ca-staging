@@ -10,8 +10,7 @@
 
 <title>Search: </title><div class="rightcunt">
     <h1><?php echo lang('local_number.first'); ?></h1>
-  <p class="rightcunt2">  
-	If you visit a different country to the one where you are registered – just change your Chillitalk Local Numbers at the touch of a button – and continue to enjoy cheap calls.
+  <p class="rightcunt2">   If you move to, or visit, a different country then you can change your Local Numbers to continue getting Chillitalk's low rates at the touch of a button.
 <br>
 <br>
 You can currently call your international contacts from 
@@ -19,7 +18,7 @@ You can currently call your international contacts from
     
        <select id="country" name="country" style="width:161px !important;">
        	<?php foreach($countries->List as $val) { ?>
-			<?php if($val->Code2 == 'GB' && $this->uri->segment('5') == '') { ?>
+			<?php if($val->Code2 == $this->session->userdata('country_code2_web') && $this->uri->segment('5') == '') { ?>
                 <option value="<?php echo $val->Code2; ?>" selected="selected"><?php echo $val->Name; ?></option>
             <?php }elseif($this->uri->segment('5') == $val->Code2){ ?>
                 <option value="<?php echo $val->Code2; ?>" selected="selected"><?php echo $val->Name; ?></option>
