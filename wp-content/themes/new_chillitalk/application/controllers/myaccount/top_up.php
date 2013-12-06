@@ -168,8 +168,8 @@ class Top_up extends MY_Controller{
 					$this->session->set_userdata('success_credit_card','success_credit_card');
 					$this->session->set_userdata('prev_bal_card', $this->session->userdata('balance'));
 					$this->session->set_userdata('current_balance', $result_process_card->afterBal);
-					redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success');
-				
+					//redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success');
+					redirect(base_url().'/myaccount/top_up/form3ds/');
 				}elseif($result_card->errCode == '0' && $result_card->Decision == 'REVIEW') {
 					
 					$this->session->set_userdata('review_on','review_on');
@@ -406,8 +406,8 @@ class Top_up extends MY_Controller{
 					}
 					$this->session->set_userdata('success_credit_card_alone','success_credit_card');
 					$this->session->set_userdata('prev_bal_card1', $this->session->userdata('balance'));
-					
-					redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success_alone');
+					redirect(base_url().'/myaccount/top_up/form3ds/');
+					//redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success_alone');
 				}elseif($result_card1->errCode == '0' && $result_card1->Decision == 'REVIEW') {
 					
 					$this->session->set_userdata('review_on','review_on');
