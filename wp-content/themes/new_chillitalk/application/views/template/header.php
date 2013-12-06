@@ -111,9 +111,9 @@
     <select  class="slectdt leftcom" onChange="window.location.href='<?php echo base_url(); ?>'+$(this).val()+'<?php echo substr($this->uri->uri_string(),2); ?>'">
     
     <?php if($this->uri->segment('1') == 'en') { ?>
-    <option  value="en" class="ca">Canada </option>
+    <option  value="en" class="ca">English </option>
     <?php }else{ ?>
-    <option  value="en" class="ca">Canada </option>
+    <option  value="en" class="ca">English </option>
     <?php } ?>
  
 	 
@@ -304,9 +304,9 @@
     <select  class="slectdt leftcom" onChange="window.location.href='<?php echo base_url(); ?>'+$(this).val()+'<?php echo substr($this->uri->uri_string(),2); ?>'">
     
     <?php if($this->uri->segment('1') == 'en') { ?>
-    <option  value="en" selected>Canada </option>
+    <option  value="en" selected>English </option>
     <?php }else{ ?>
-    <option  value="en">Canada </option>
+    <option  value="en">English </option>
     <?php } ?>
  
 	 
