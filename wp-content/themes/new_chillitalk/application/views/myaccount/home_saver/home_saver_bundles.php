@@ -98,7 +98,8 @@
                     <h3>Other Available Subscriptions</h3>
                     
                     <p class="rightcunt2">
-                   Chillitalk offers a Home Saver Bundle for <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/myaccount/home_saver_bundles/sri_lanka/" class="ttxtblue">Sri Lanka</a> and the                         	<a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/myaccount/home_saver_bundles/philippines/" class="ttxtblue">Philippines</a> so you can call your loved ones as often as you need without worrying about the cost.
+                   Chillitalk offers a Home Saver Bundle for <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/myaccount/home_saver_bundles/sri_lanka/" class="ttxtblue">Sri Lanka</a>                     
+                 so you can call your loved ones as often as you need without worrying about the cost.
                     </p>
                     <div class="clearfix">&nbsp;</div>
                      <div class="row">
