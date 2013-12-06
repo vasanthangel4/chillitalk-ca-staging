@@ -11,24 +11,24 @@ class MY_Controller extends CI_Controller {
 		ob_start();
 		$this->session->set_userdata('lang',$this->lang->lang());
 		
-		/*$this->session->set_userdata('country_name_web','United Kingdom');
-		$this->session->set_userdata('country_code_web','GBR');
-		$this->session->set_userdata('country_code2_web','UK');
-		$this->session->set_userdata('rates_web','p/min');
-		$this->session->set_userdata('call_rates_web','p/min');
-		$this->session->set_userdata('sms_rates_web','p/SMS');
-		$this->session->set_userdata('app_code_web','CTPUK');
-		$this->session->set_userdata('prefix_phone_web','44');
-		$this->session->set_userdata('currency_web','GBP');
-		$this->session->set_userdata('currency_symbol_web','£');
-		$this->session->set_userdata('site_code_web','LO2');
-		$this->session->set_userdata('plan_id_web',146);
-		$this->session->set_userdata('user_flag',get_template_directory_uri().'/img/chillitalkusers.jpg');
-		$this->session->set_userdata('small_flag','ukflg');
-		$this->session->set_userdata('big_flag', get_template_directory_uri().'/img/sign_up_flags/gb.png');
+		$this->session->set_userdata('country_name_web','Canada');
+		$this->session->set_userdata('country_code_web','CAN');
+		$this->session->set_userdata('country_code2_web','CA');
+		$this->session->set_userdata('rates_web','&cent;/min');
+		$this->session->set_userdata('call_rates_web','&cent;/min');
+		$this->session->set_userdata('sms_rates_web','&cent;/SMS');
+		$this->session->set_userdata('app_code_web','CTPCA');
+		$this->session->set_userdata('prefix_phone_web','1');
+		$this->session->set_userdata('currency_web','CAD');
+		$this->session->set_userdata('currency_symbol_web','$');
+		$this->session->set_userdata('site_code_web','CA1');
+		$this->session->set_userdata('plan_id_web',152);
+		$this->session->set_userdata('user_flag',get_template_directory_uri().'/img/chillitalkusers-ca.jpg');
+		$this->session->set_userdata('small_flag','caflg');
+		$this->session->set_userdata('big_flag', get_template_directory_uri().'/img/sign_up_flags/ca.png');
 		
 		$this->lang->load('header');
-		$this->lang->load('footer');*/
+		$this->lang->load('footer');
 		
 		
 		if($this->session->userdata('username') != '') {
