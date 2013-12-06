@@ -4,8 +4,10 @@
 <div style="float:left;display:inline; width:388px;margin-top:10px; line-height:30px;">
 
 
-<h3  style="color:#E42700!important;float:left;display:inline;line-height:30px;width:306px !important;text-indent:0px !important; margin-left:30px;">1500 minutes to<br/> Sri Lanka for just <?php echo $this->session->userdata('currency_symbol_web'); ?>15</h3>  
- <p style="float:left;display:inline; width:388px;text-indent:0px !important; margin-left:30px;">Now you can call your loved ones on any<br/> one mobile in Sri Lanka as often as you<br/> want without worrying about the cost.</p>
+<h3  style="color:#E42700!important;float:left;display:inline;line-height:30px;width:306px !important;text-indent:0px
+!important; margin-left:30px;">1500 minutes to<br/> Sri Lanka for just $15</h3>  
+ <p style="float:left;display:inline; width:388px;text-indent:0px !important; margin-left:30px;">Now you can call 
+ your loved ones on any<br/> one mobile in Sri Lanka as often as you<br/> want without worrying about the cost.</p>
  
 </div>
 <img style="float:left;display:inline;width:334px;margin-top:10px;" src="<?php echo get_template_directory_uri(); ?>/img/srilanka.png" alt="ChilliTalk srilanka">
