@@ -77,6 +77,6 @@ How do I make calls?
     </div>
    
   <script type="text/javascript">
-$( ".leftmyaccount" ).css({ height: "760px" });
+$( ".leftmyaccount" ).css({ height: "1006px" });
 </script>
   
