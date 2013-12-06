@@ -24,14 +24,17 @@
 <h3>
 What is an Access Number?</h3>
 <p>
-An Access Number is a number you dial when you call from an unregistered phone. You can select an Access Number Local to you in <a href="http://chillitalk.co.uk/en/login_member">My Account</a>
+An Access Number is a number you dial when you call from an unregistered phone. You can select an Access Number Local to you in 
+<a href="http://chillitalk.ca/en/login_member">My Account</a>
 </p>
 <h3>
 How do I make calls using an Access Number?</h3>
 <p>
 <ul class="assnuber txtssd">
-<li>First, choose an Access Number which is local to you. Log in to  <a href="http://chillitalk.co.uk/en/myaccount/access_number">My Account</a> to access these numbers. </li>
-<li>After dialling your Access Number, you will be prompted to dial your 11-digit PIN. Your 11-digit PIN can be found anywhere in <a href="http://chillitalk.co.uk/en/myaccount/access_number">My Account</a>.
+<li>First, choose an Access Number which is local to you. Log in to 
+<a href="http://chillitalk.ca/en/myaccount/access_number">My Account</a> to access these numbers. </li>
+<li>After dialling your Access Number, you will be prompted to dial your 11-digit PIN. Your 11-digit PIN can be found anywhere in 
+<a href="http://chillitalk.ca/en/myaccount/access_number">My Account</a>.
 </li>
 <li>Last, you then dial the international number you wish to call. </li>
 </ul>
