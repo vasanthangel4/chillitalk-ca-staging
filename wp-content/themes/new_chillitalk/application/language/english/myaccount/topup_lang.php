@@ -17,7 +17,7 @@ Top Up with E-Voucher
                    <div class='rightcunt'>
                    <p class='commfrt txtas'>You can top up using an E-voucher. E-vouchers are available from any retailer 
                    that displays the logos below. Buy your E-voucher and enter the E-voucher PIN code 
-                   <a class='ttxtblue' href='http://chillitalk-ca-staging.azurewebsites.net/en/myaccount/top_up/voucher'>Here</a>
+                   <a class='ttxtblue' href='http://chillitalk.ca/en/myaccount/top_up/voucher'>Here</a>
            
           
                    </p>  "); 
