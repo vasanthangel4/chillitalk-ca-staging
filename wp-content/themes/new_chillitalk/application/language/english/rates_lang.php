@@ -3,7 +3,7 @@
 $lang['rates.title'] = "<h1 style='font-size:37px'>The Best International Calling Rates!</h1>
 <p>Chillitalk offers international calls and SMS at super-low rates plus a FREE first call. </p>
 <p>
-Easy to use – It takes just <b>30 seconds</b> to <a href='http://chillitalk.co.uk/en/sign_up'>get started</a> and make your first call with Chillitalk. 
+Easy to use – It takes just <b>30 seconds</b> to <a href='http://chillitalk.ca/en/sign_up'>get started</a> and make your first call with Chillitalk. 
 <br>
 <br>
 See our cheap international call rates below. Just enter the country you want to call. 
