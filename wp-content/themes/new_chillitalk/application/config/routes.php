@@ -40,15 +40,6 @@
  
 $route['default_controller'] = 'home';
 
-$route['en/mobile/(:any)'] = 'mobile';
-$route['fr/mobile/(:any)'] = 'mobile';
-$route['de/mobile/(:any)'] = 'mobile';
-$route['se/mobile/(:any)'] = 'mobile';
-$route['nl/mobile/(:any)'] = 'mobile';
-$route['fi/mobile/(:any)'] = 'mobile';
-$route['dk/mobile/(:any)'] = 'mobile';
-$route['pl/mobile/(:any)'] = 'mobile';
-
 $route['en/sign_up/(:any)'] = 'sign_up';
 $route['fr/sign_up/(:any)'] = 'sign_up';
 $route['de/sign_up/(:any)'] = 'sign_up';
