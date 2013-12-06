@@ -108,11 +108,7 @@
                             </a>
                         </div>
                         
-                        <div style="margin-top:10px;">
-                        	<a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/myaccount/home_saver_bundles/philippines/">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/bundle_philippines.jpg" />
-                            </a>
-                        </div>
+                    
                      </div>
                 </div>
             </div>
