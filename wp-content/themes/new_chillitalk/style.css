@@ -3845,7 +3845,7 @@ width:217px !important;
 #tetxvbox input[type="text"].ukflg {
      width: 58px ! important;
 }
-#tetxvbox .ukflg + input[type="text"] 
+#tetxvbox .caflg + input[type="text"] 
 {
     margin-left: -4px;
     width: 139px !important;
