@@ -12,7 +12,7 @@ $lang['Troubleshooting.seventxt'] =  ascii_to_entities("<h3>
 Can I use Chillitalk from a phone that’s not registered – such as a public phone or a friend's phone? 
 </h3><p>Yes. However, so that we can be sure it is you, we will ask you to provide an 11-digit PIN code. You can find this number by logging into 
 
-<a href='http://chillitalk.co.uk/en/myaccount/registered_number/' class='underline'>My Account</a>.</p>
+<a href='http://chillitalk.ca/en/myaccount/registered_number/' class='underline'>My Account</a>.</p>
 <h3>How do I place an international call using Chillitalk?</h3>
 <p>Make sure you are calling from a registered phone. Then call the Chillitalk Local Number assigned to the contact you wish to call. Make sure you have enough credit in your account for your call to be connected.
 </p>

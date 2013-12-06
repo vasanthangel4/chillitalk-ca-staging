@@ -3842,10 +3842,10 @@ width:217px !important;
  font-size: 30px;
  margin: 0px 0px 10px ! important;
 }
-#tetxvbox input[type="text"].ukflg {
+#tetxvbox input[type="text"].caflg {
      width: 58px ! important;
 }
-#tetxvbox .ukflg + input[type="text"] 
+#tetxvbox .caflg + input[type="text"] 
 {
     margin-left: -4px;
     width: 139px !important;

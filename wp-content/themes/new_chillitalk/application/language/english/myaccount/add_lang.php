@@ -9,7 +9,7 @@ $lang['add.Aotopup']=  ascii_to_entities("Auto Top-up");
 $lang['add.On']=  ascii_to_entities("On");
 $lang['add.Off']=  ascii_to_entities("Off");
 $lang['add.turnontxt']=  ascii_to_entities("Turn ON auto Top-up and we'll automatically credit your 
-account with the amount selected above when your balance falls below  £1. This will be charged to your registered credit or debit card. You can deactivate at any time by selecting auto top-up OFF.");
+account with the amount selected above when your balance falls below  $1. This will be charged to your registered credit or debit card. You can deactivate at any time by selecting auto top-up OFF.");
 $lang['add.CardholderFirstname']=  ascii_to_entities("Name on card <span class='red spar'>*</span>");
 $lang['add.CardholderLastname']=  ascii_to_entities("Cardholder Last name");
 $lang['add.Creditcardnumber']=  ascii_to_entities("Card number <span class='red spar'>*</span>");

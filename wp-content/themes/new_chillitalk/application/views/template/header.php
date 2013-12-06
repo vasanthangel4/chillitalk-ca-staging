@@ -111,9 +111,9 @@
     <select  class="slectdt leftcom" onChange="window.location.href='<?php echo base_url(); ?>'+$(this).val()+'<?php echo substr($this->uri->uri_string(),2); ?>'">
     
     <?php if($this->uri->segment('1') == 'en') { ?>
-    <option  value="en" class="uk">English </option>
+    <option  value="en" class="ca">Canada </option>
     <?php }else{ ?>
-    <option  value="en" class="uk">English </option>
+    <option  value="en" class="ca">Canada </option>
     <?php } ?>
  
 	 
@@ -182,7 +182,7 @@
                  
                        <ul class="childNav">
           <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/">Sri Lanka</a>  </li>
-          <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/philippines">Philippines</a>  </li>
+         
           </ul>
                  
                   </li>
@@ -304,9 +304,9 @@
     <select  class="slectdt leftcom" onChange="window.location.href='<?php echo base_url(); ?>'+$(this).val()+'<?php echo substr($this->uri->uri_string(),2); ?>'">
     
     <?php if($this->uri->segment('1') == 'en') { ?>
-    <option  value="en" selected>English </option>
+    <option  value="en" selected>Canada </option>
     <?php }else{ ?>
-    <option  value="en">English </option>
+    <option  value="en">Canada </option>
     <?php } ?>
  
 	 
@@ -377,7 +377,7 @@
                  
                        <ul class="childNav">
           <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/">Sri Lanka</a>  </li>
-          <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/bundles/philippines">Philippines</a>  </li>
+          
           </ul>
                  
                   </li>
