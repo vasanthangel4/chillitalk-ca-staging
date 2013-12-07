@@ -10,11 +10,11 @@
                         <li><a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/apps" title="Android">Android</a> </li>
                         
                     </ul>
-                     <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=756702258&mt=8">  
+                     <a href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=756702258&mt=8" target="_blank">  
                        
                 <img src="<?php echo get_template_directory_uri(); ?>/img/app_store.png" alt="Chillitalk Android" /></a>
                 
-                 <a href="https://play.google.com/store/apps/details?id=com.mundio.chillitalk&hl=en_GB"> 
+                 <a href="https://play.google.com/store/apps/details?id=com.mundio.chillitalk&hl=en_GB"  target="_blank"> 
                
                        
                 <img style="margin-top:0px;" src="<?php echo get_template_directory_uri(); ?>/img/google_app.jpg" alt="Chillitalk Android" /></a>
