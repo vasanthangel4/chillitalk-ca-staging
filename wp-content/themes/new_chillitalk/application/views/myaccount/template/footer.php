@@ -61,14 +61,20 @@
 <?php wp_footer(); ?>
 
 <script type="text/javascript">
-var __lc = {};
-__lc.license = 3476332;
-
-(function() {
-	var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-	lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-})();
+    var Comm100API = Comm100API || new Object;
+    Comm100API.chat_buttons = Comm100API.chat_buttons || [];
+    var comm100_chatButton = new Object;
+    comm100_chatButton.code_plan = 13;
+    comm100_chatButton.div_id = 'comm100-button-13';
+    Comm100API.chat_buttons.push(comm100_chatButton);
+    Comm100API.site_id = 181012;
+    Comm100API.main_code_plan = 13;
+    var comm100_lc = document.createElement('script');
+    comm100_lc.type = 'text/javascript';
+    comm100_lc.async = true;
+    comm100_lc.src = 'https://chatserver.comm100.com/livechat.ashx?siteId=' + Comm100API.site_id;
+    var comm100_s = document.getElementsByTagName('script')[0];
+    comm100_s.parentNode.insertBefore(comm100_lc, comm100_s);
 </script>
 
 </body>
