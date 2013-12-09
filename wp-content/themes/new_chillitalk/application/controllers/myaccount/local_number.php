@@ -19,7 +19,7 @@ class Local_number extends MY_Controller{
 	  
 		$result_r = $this->rest->get($uri_r);
 		
-		$uri = 'http://sws.vectone.com/api/CTPLocalNo?accId='.$this->session->userdata('account_id').'&countryCode2=GB&mode=param&top=5';
+		$uri = 'http://sws.vectone.com/api/CTPLocalNo?accId='.$this->session->userdata('account_id').'&countryCode2='.$this->config->item('country_code2_web').'&mode=param&top=5';
 		  
 	
 		$this->rest->format('application/json');
@@ -179,28 +179,5 @@ class Local_number extends MY_Controller{
 		
 		
 	}
-	
-	/*public function favorite() {
-		header("HTTP/1.1 200 OK");
-		$local_no = $this->uri->segment('4');
-		$starred  = $this->uri->segment('5');
-		$uri = 'http://sws.vectone.com/api/CTPLocalNo?accId='.$this->session->userdata('account_id').'&localNo='.$local_no.'&starred='.$starred;
-		
-		$this->rest->format('application/json');
-		  
-		$result = $this->rest->get($uri);
-		
-		
-		if($result->ErrCode == '0') {
-			
-			$this->session->set_flashdata('success','Successfull');
-		}else{
-			$this->session->set_flashdata('success',$result->ErrMsg);
-		}
-		
-	    redirect(base_url().'myaccount/local_number');
-		
-		
-	}*/
 	
 }

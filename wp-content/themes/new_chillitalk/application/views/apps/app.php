@@ -72,14 +72,14 @@
                           <input type="text" class="<?php echo $this->config->item('small_flag'); ?>" value="+<?php echo $this->config->item('prefix_phone_web'); ?>" name="UK" readonly="readonly">
                           <?php if(form_error('phone_number')) { ?>
                           
-                          <input type="text" name="phone_number" style="color:red;border-color:red" required="required" pattern="[0-9]+" />
+                          <input type="text" name="phone_number" style="color:red;border-color:red" required="required" pattern="^[+0-9]{5,16}$" />
                           
                           <input type="hidden" name="device" id="device"/>
                           <?php echo form_error('phone_number','<span style="color:red">','</span>'); ?>
                           
 						  <?php }else{ ?>
                           
-                          <input type="text" name="phone_number" required="required" pattern="[0-9]+" />
+                          <input type="text" name="phone_number" required="required" pattern="^[+0-9]{5,16}$" />
                           <input type="hidden" name="device" id="device" value="android"/>
                           
 						  <?php } ?>
@@ -125,14 +125,14 @@
                           <input type="text" class="<?php echo $this->config->item('small_flag'); ?>" value="+<?php echo $this->config->item('prefix_phone_web'); ?>" name="UK" readonly="readonly">
                           <?php if(form_error('phone_number')) { ?>
                           
-                          <input type="text" name="phone_number" style="color:red;border-color:red" required="required" pattern="[0-9]+" />
+                          <input type="text" name="phone_number" style="color:red;border-color:red" required="required" pattern="^[+0-9]{5,16}$" />
                           
                           <input type="hidden" name="device" id="device"/>
                           <?php echo form_error('phone_number','<span style="color:red">','</span>'); ?>
                           
 						  <?php }else{ ?>
                           
-                          <input type="text" name="phone_number" required="required" pattern="[0-9]+" />
+                          <input type="text" name="phone_number" required="required" pattern="^[+0-9]{5,16}$" />
                           <input type="hidden" name="device" id="device" value="iphone"/>
                           
 						  <?php } ?>

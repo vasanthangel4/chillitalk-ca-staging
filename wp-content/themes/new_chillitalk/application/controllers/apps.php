@@ -22,6 +22,16 @@ class Apps extends MY_Controller{
 			$device       = $input_post->post('device');
 			$phone_number = $input_post->post('phone_number');
 			
+			if(preg_match('/\W+'.$this->config->item('prefix_phone_web').'/', $phone_number)) {
+				$mobile_number = ltrim($phone_number,'+');
+			}elseif(preg_match('/0'.$this->config->item('prefix_phone_web').'/i', $phone_number)) {
+				$mobile_number = ltrim($phone_number,'0');
+			}elseif(preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
+				$mobile_number = ltrim($phone_number,'+');
+			}elseif(!preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
+				$mobile_number = ltrim($this->config->item('prefix_phone_web').$phone_number,'+');
+			}
+			
 			$uri3 = 'http://sws.vectone.com/api/CTPMobileSignUp';
 		    
 		  	$params3 = array('Device' 	=> $device, 
@@ -38,7 +48,7 @@ class Apps extends MY_Controller{
 		  	if($result3->ErrCode == '0') {
 				$this->session->set_userdata('account_id', $result3->AccountId);
 				$this->session->set_userdata('mobile_signup_success','mobile_signup_success');
-				$this->session->set_userdata('mobile_no',$this->config->item('prefix_phone_web').$phone_number);
+				$this->session->set_userdata('mobile_no',$this->config->item('prefix_phone_web').$mobile_number);
 				$this->session->set_userdata('device', 'android');
 				redirect(base_url().$this->session->userdata('lang').'/apps/android_success/');
 				
@@ -85,10 +95,20 @@ class Apps extends MY_Controller{
 			$device       = $input_post->post('device');
 			$phone_number = $input_post->post('phone_number');
 			
+			if(preg_match('/\W+'.$this->config->item('prefix_phone_web').'/', $phone_number)) {
+				$mobile_number = ltrim($phone_number,'+');
+			}elseif(preg_match('/0'.$this->config->item('prefix_phone_web').'/i', $phone_number)) {
+				$mobile_number = ltrim($phone_number,'0');
+			}elseif(preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
+				$mobile_number = ltrim($phone_number,'+');
+			}elseif(!preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
+				$mobile_number = ltrim($this->config->item('prefix_phone_web').$phone_number,'+');
+			}
+			
 			$uri3 = 'http://sws.vectone.com/api/CTPMobileSignUp';
 		    
 		  	$params3 = array('Device' 	=> $device, 
-							 'MobileNo'  => $this->config->item('prefix_phone_web').$phone_number,
+							 'MobileNo'  => $mobile_number,
 							 );
 							
 		  	$this->rest->format('application/json');
@@ -99,7 +119,7 @@ class Apps extends MY_Controller{
 		  	if($result3->ErrCode == '0') {
 				$this->session->set_userdata('account_id', $result3->AccountId);
 				$this->session->set_userdata('mobile_signup_success','mobile_signup_success');
-				$this->session->set_userdata('mobile_no',$this->config->item('prefix_phone_web').$phone_number);
+				$this->session->set_userdata('mobile_no',$mobile_number);
 				$this->session->set_userdata('device', $device);
 				//redirect(base_url().$this->session->userdata('lang').'/apps/android_success/');
 				

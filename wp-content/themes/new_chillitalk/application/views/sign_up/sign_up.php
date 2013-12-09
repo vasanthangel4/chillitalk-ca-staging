@@ -82,7 +82,7 @@
                     <input type="text" name="phone_number" style="color:red;border-color:red" value="<?php echo set_value('phone_number'); ?>" required="required" pattern="[0-9]{5,}" />
                     <?php echo form_error('phone_number','<span style="color:red">','</span>'); ?>
                     <?php }else{ ?>
-                    <input type="text" name="phone_number" value="<?php echo set_value('phone_number'); ?>" required="required" pattern="[0-9]{5,}" />
+                    <input type="text" name="phone_number" value="<?php echo set_value('phone_number'); ?>" required="required" pattern="^[+0-9]{5,16}$" />
                     <?php } ?>
                 </div>
                 
@@ -152,7 +152,7 @@
                       <label>
                           Your Phone Number</label>
                       <input type="text" class="<?php echo $this->config->item('small_flag'); ?>" value="+<?php echo $this->config->item('prefix_phone_web'); ?>" name="UK" readonly="readonly">
-                      <input type="text" name="phone_number" required="required" pattern="[0-9]{5,}" />
+                      <input type="text" name="phone_number" required="required" pattern="^[+0-9]{5,16}$" />
                       <input type="hidden" name="device" id="device" value="android"/>
                   </div>
                   <label></label>
@@ -187,7 +187,7 @@
                       <label>
                           Your Phone Number</label>
                       <input type="text" class="<?php echo $this->config->item('small_flag'); ?>" value="+<?php echo $this->config->item('prefix_phone_web'); ?>" name="UK" readonly="readonly">
-                      <input type="text" name="phone_number" required="required" pattern="[0-9]{5,}" />
+                      <input type="text" name="phone_number" required="required" pattern="^[+0-9]{5,16}$" />
                       <input type="hidden" name="device" id="device" value="iphone" />
                   </div>
                   <label></label>

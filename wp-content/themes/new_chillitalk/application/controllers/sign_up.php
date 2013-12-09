@@ -15,6 +15,10 @@ class Sign_up extends MY_Controller{
 		
 		header("HTTP/1.1 200 OK");
 		
+		$phone = '750';
+		
+		
+		
 		if($this->uri->segment('3') != '') {
 			$ref_code = $this->uri->segment('3');
 		}else{
@@ -32,6 +36,7 @@ class Sign_up extends MY_Controller{
 		$valid->set_rules('confirm_password','confirm password','matches[password]');
 		
 		
+		
 			
 		if($valid->run()) {
 			
@@ -41,12 +46,24 @@ class Sign_up extends MY_Controller{
 			$phone_number = $input_post->post('phone_number');
 			$password = $input_post->post('password');
 			
+			if(preg_match('/\W+'.$this->config->item('prefix_phone_web').'/', $phone_number)) {
+				$mobile_number = ltrim($phone_number,'+');
+			}elseif(preg_match('/0'.$this->config->item('prefix_phone_web').'/i', $phone_number)) {
+				$mobile_number = ltrim($phone_number,'0');
+			}elseif(preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
+				$mobile_number = ltrim($phone_number,'+');
+			}elseif(!preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
+				$mobile_number = ltrim($this->config->item('prefix_phone_web').$phone_number,'+');
+			}
+		
+			
+			
 			$uri = 'http://sws.vectone.com/api/CTPWebRegister';
 		    echo $ref_code;
 		  	$params = array('FirstName' => $first_name, 
 							'LastName' => $last_name,
 							'Email'	=> $email,
-							'PhoneNo'  => $this->config->item('prefix_phone_web').$phone_number,
+							'PhoneNo'  => $mobile_number,
 							'Password' => $password,
 							'PlanId'  => $this->config->item('plan_id_web'),
 							'Country'  => $this->config->item('country_name_web'),
@@ -226,14 +243,14 @@ class Sign_up extends MY_Controller{
 					
 					$uri_mail_signup2 = 'http://sws.vectone.com/api/CTPSendHTMLMail';
 					$params_mail_signup2 = array("Step" => 1,
-												"Email" => $this->session->userdata('email'),
-												"MobileNo" => $this->session->userdata('mobile_phone'),
-												"AccessNumber" => $this->session->userdata('access_no'),
-												"FriendName" => $friend_name,
-												"FriendNumber" => $dest_no,
-												"LocalNumber" => $result2->LocalNo,
-												"Balance" => $this->session->userdata('total_bal')
-												);
+												 "Email" => $this->session->userdata('email'),
+												 "MobileNo" => $this->session->userdata('mobile_phone'),
+												 "AccessNumber" => $this->session->userdata('access_no'),
+												 "FriendName" => $friend_name,
+												 "FriendNumber" => $dest_no,
+												 "LocalNumber" => $result2->LocalNo,
+												 "Balance" => $this->session->userdata('total_bal')
+												 );
 					$this->rest->format('application/json');
 					  
 					$result_mail_signup2 = $this->rest->post($uri_mail_signup2, $params_mail_signup2);

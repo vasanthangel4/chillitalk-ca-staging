@@ -137,7 +137,7 @@ class Top_up extends MY_Controller{
 					$this->session->set_userdata('cvv_card', $cvv);
 					$this->session->set_userdata('exp_date_card', $year.$month);
 					$this->session->set_userdata('first_card', $first_name);
-					$this->session->set_userdata('last_card', $first_name);
+					$this->session->set_userdata('first_card', $first_name);
 					$this->session->set_userdata('street_card', $address);
 					$this->session->set_userdata('city_card', $city);
 					$this->session->set_userdata('post_code_card', $zip);
@@ -233,7 +233,7 @@ class Top_up extends MY_Controller{
 							"cvv" => $this->session->userdata('cvv_card'),
 							"expDate" => $this->session->userdata('exp_date_card'),
 							"firstName" => $this->session->userdata('first_card'),
-							"lastName" => $this->session->userdata('last_card'),
+							"lastName" => $this->session->userdata('first_card'),
 							"streetName" => $this->session->userdata('street_card'),
 							"city" => $this->session->userdata('city_card'),
 							"postCode" => $this->session->userdata('post_code_card'),
@@ -242,7 +242,8 @@ class Top_up extends MY_Controller{
 							"amount" => $this->session->userdata('amount_card'),
 							"autoTopup" => $this->session->userdata('auto_topup_card'),
 							"paRes" => $_POST['PaRes'],
-							'ipAddr' => $this->input->ip_address()
+							'ipAddr' => $this->input->ip_address(),
+							'state' => ''
 							);
 							
 		$this->rest->format('application/json');
@@ -358,7 +359,7 @@ class Top_up extends MY_Controller{
 								'amount'  => $amount,
 								'autoTopup' => true,
 								'bypass3DS' => false,
-								'state' => $state,
+								'state' => '',
 								'ipAddr' => $this->input->ip_address()
 								);
 								
@@ -377,7 +378,7 @@ class Top_up extends MY_Controller{
 					$this->session->set_userdata('cvv_card1', $cvv);
 					$this->session->set_userdata('exp_date_card1', $year.$month);
 					$this->session->set_userdata('first_card1', $first_name);
-					$this->session->set_userdata('last_card1', $first_name);
+					$this->session->set_userdata('first_card1', $first_name);
 					$this->session->set_userdata('street_card1', $address);
 					$this->session->set_userdata('city_card1', $city);
 					$this->session->set_userdata('post_code_card1', $zip);
@@ -406,8 +407,8 @@ class Top_up extends MY_Controller{
 					}
 					$this->session->set_userdata('success_credit_card_alone','success_credit_card');
 					$this->session->set_userdata('prev_bal_card1', $this->session->userdata('balance'));
-					redirect(base_url().'/myaccount/top_up/form3ds/');
-					//redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success_alone');
+					
+					redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success_alone');
 				}elseif($result_card1->errCode == '0' && $result_card1->Decision == 'REVIEW') {
 					
 					$this->session->set_userdata('review_on','review_on');
@@ -470,7 +471,7 @@ class Top_up extends MY_Controller{
 							"cvv" => $this->session->userdata('cvv_card1'),
 							"expDate" => $this->session->userdata('exp_date_card1'),
 							"firstName" => $this->session->userdata('first_card1'),
-							"lastName" => $this->session->userdata('last_card1'),
+							"lastName" => $this->session->userdata('first_card1'),
 							"streetName" => $this->session->userdata('street_card1'),
 							"city" => $this->session->userdata('city_card1'),
 							"postCode" => $this->session->userdata('post_code_card1'),
@@ -479,7 +480,8 @@ class Top_up extends MY_Controller{
 							"amount" => $this->session->userdata('amount'),
 							"autoTopup" => $this->session->userdata('auto_topup_card1'),
 							"paRes" => $_POST['PaRes'],
-							'ipAddr' => $this->input->ip_address()
+							'ipAddr' => $this->input->ip_address(),
+							'state' => ''
 							);
 							
 		$this->rest->format('application/json');
@@ -616,7 +618,7 @@ class Top_up extends MY_Controller{
 					$this->session->set_userdata('prev_bal_card', $this->session->userdata('balance'));
 					$this->session->set_userdata('current_balance', $result_process_card->afterBal);
 					redirect(base_url().$this->session->userdata('lang').'/myaccount/top_up/success');
-				
+					//redirect(base_url().'/myaccount/top_up/form3ds/');
 				}elseif($result_card->errCode == '0' && $result_card->Decision == 'REVIEW') {
 					
 					$this->session->set_userdata('review_on','review_on');
