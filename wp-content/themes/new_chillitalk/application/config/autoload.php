@@ -80,7 +80,7 @@ $autoload['helper'] = array('url','file','html','language','text');
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('chillitalk_config');
 
 
 /*
