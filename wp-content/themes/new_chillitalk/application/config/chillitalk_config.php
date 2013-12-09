@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['country_name_web'] = 'CANADA';
+$config['country_name_web'] = 'Canada';
 
 $config['country_code_web'] = 'CAN';
 
