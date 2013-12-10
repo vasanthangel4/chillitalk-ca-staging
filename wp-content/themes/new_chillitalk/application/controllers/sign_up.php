@@ -51,7 +51,7 @@ class Sign_up extends MY_Controller{
 			}elseif(preg_match('/0'.$this->config->item('prefix_phone_web').'/i', $phone_number)) {
 				$mobile_number = ltrim($phone_number,'0');
 			}elseif(preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
-				$mobile_number = ltrim($phone_number,'+');
+				$mobile_number = $phone_number;
 			}elseif(!preg_match('/'.$this->config->item('prefix_phone_web').'/i', $phone_number) ){
 				$mobile_number = ltrim($this->config->item('prefix_phone_web').$phone_number,'+');
 			}
