@@ -93,6 +93,7 @@ class Top_up extends MY_Controller{
 		$city = $this->input->post('city');
 		$address = $this->input->post('address');
 		$zip = $this->input->post('zip');
+		$state = $this->input->post('state');
 		
 		if($valid->run()) {
 			
@@ -118,7 +119,7 @@ class Top_up extends MY_Controller{
 									 'amount'  => $amount,
 									 'autoTopup' => true,
 									 'bypass3DS' => false,
-									 'state' => '',
+									 'state' => $state,
 									 'ipAddr' => $this->input->ip_address()
 									 );
 								
@@ -147,6 +148,7 @@ class Top_up extends MY_Controller{
 					$this->session->set_userdata('acs_url_card',$result_card->acsURL);
 					$this->session->set_userdata('pareq_card',$result_card->paReq);
 					$this->session->set_userdata('ref_code_card',$result_card->merchantRefCode);
+					$this->session->set_userdata('state_card',$state);
 					
 					//redirect(base_url().'/myaccount/top_up/form3ds/');
 					if($this->session->userdata('auto_topup_card') == 'false') {
@@ -243,7 +245,7 @@ class Top_up extends MY_Controller{
 							"autoTopup" => $this->session->userdata('auto_topup_card'),
 							"paRes" => $_POST['PaRes'],
 							'ipAddr' => $this->input->ip_address(),
-							'state' => ''
+							'state' => $this->session->userdata('state_card')
 							);
 							
 		$this->rest->format('application/json');
@@ -359,7 +361,7 @@ class Top_up extends MY_Controller{
 								'amount'  => $amount,
 								'autoTopup' => true,
 								'bypass3DS' => false,
-								'state' => '',
+								'state' => $state,
 								'ipAddr' => $this->input->ip_address()
 								);
 								
@@ -388,7 +390,7 @@ class Top_up extends MY_Controller{
 					$this->session->set_userdata('acs_url_card1',$result_card1->acsURL);
 					$this->session->set_userdata('pareq_card1',$result_card1->paReq);
 					$this->session->set_userdata('ref_code_card1',$result_card1->merchantRefCode);
-					
+					$this->session->set_userdata('state_card1',$state);
 					//redirect(base_url().'/myaccount/top_up/form3ds_alone/');
 					if($this->session->userdata('auto_topup_card1') == 'false') {
 						$uri_setting2 = 'http://sws.vectone.com/api/CTPAutoTopupSetting';
@@ -481,7 +483,7 @@ class Top_up extends MY_Controller{
 							"autoTopup" => $this->session->userdata('auto_topup_card1'),
 							"paRes" => $_POST['PaRes'],
 							'ipAddr' => $this->input->ip_address(),
-							'state' => ''
+							'state' => $this->session->userdata('state_card1')
 							);
 							
 		$this->rest->format('application/json');
