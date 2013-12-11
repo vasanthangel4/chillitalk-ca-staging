@@ -40,9 +40,9 @@
                         Free credit
                     </h3>
                     <p>
-                        We added 0.25p to your account,<br /> now you can start making free calls
+                        We added $0.40 to your account,<br /> now you can start making free calls
                     </p>
-                    <div class="ramycount"><h1><?php echo $this->config->item('currency_symbol_web'); ?>0.25 </h1></div>
+                    <div class="ramycount"><h1><?php echo $this->config->item('currency_symbol_web'); ?>0.40 </h1></div>
                 </div>
                 <div class="commfrt4">
                     <h3>
