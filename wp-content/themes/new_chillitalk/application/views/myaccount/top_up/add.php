@@ -317,7 +317,12 @@
                         <label>   <?php echo lang('add.City'); ?>  </label>
                         <input type="text" placeholder="Enter City.." name="city" value="<?php echo set_value('city'); ?>" required="required">
                     </div>
-                   
+                        <div class="rightcunt">
+                        
+                        <label>   State <span class="red spar">*</span></label>
+                        <input type="text" placeholder="Enter State.." name="state" value="<?php echo set_value('state'); ?>" required="required">
+                    </div>        
+                    
                    
                     <div class="rightcunt">
          	  <label><?php echo lang('add.Country'); ?></label>
@@ -565,6 +570,12 @@
                         <input type="text" placeholder="Enter City.." name="city" value="<?php echo set_value('city'); ?>" required="required">
                     </div>
                    
+                        <div class="rightcunt">
+                        
+                        <label>   State <span class="red spar">*</span></label>
+                        <input type="text" placeholder="Enter State.." name="state" value="<?php echo set_value('state'); ?>" required="required">
+                    </div>        
+                    
                     <hr>
                     <div class="rightcunt">
          	  <label><?php echo lang('add.Country'); ?></label>
