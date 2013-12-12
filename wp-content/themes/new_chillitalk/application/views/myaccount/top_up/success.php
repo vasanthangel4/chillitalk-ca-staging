@@ -63,15 +63,15 @@ margin-top: 60px;
                         </tr>
                         <tr>
                         	<th style="text-align:left">Amount of credit</th>
-                            <td><?php echo $this->session->userdata('amount_card'); ?></td>
+                            <td><?php echo $this->config->item('currency_symbol_web'); ?> <?php echo $this->session->userdata('amount_card'); ?></td>
                         </tr>
-                        <tr>
+                        <!--<tr>
                         	<th style="text-align:left">Previous Balance</th>
                             <td><?php echo $this->session->userdata('prev_bal_card'); ?></td>
-                        </tr>
+                        </tr>-->
                         <tr>
                         	<th style="text-align:left">Current Balance</th>
-                            <td><?php echo $this->session->userdata('total_bal'); ?></td>
+                            <td><?php echo $this->config->item('currency_symbol_web'); ?> <?php echo $this->session->userdata('total_bal'); ?></td>
                         </tr>
                     </table>
                     <br/>
