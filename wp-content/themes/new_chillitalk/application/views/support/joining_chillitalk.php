@@ -36,7 +36,7 @@ Who can join Chillitalk? </h3>
 Joining Chillitalk is quick and easy with whatever device you use. Just <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/sign_up">sign-up</a> 
 online or <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/apps">download</a> the Chillitalk App.
 </p> 
-   <h3>How do I join Chillital on which to make your calls?</h3>
+   <h3>How do I join Chillitalk on which to make your calls?</h3>
      <p>
  Just sign up online or download the Chillitalk App. Joining Chillitalk is quick and easy – you just need any calling device on which to make your calls. This could be a Smartphone, a regular mobile phone, a landline or a PC.
    </p>
@@ -50,7 +50,7 @@ and you can try your <b>first call FREE!</b>
    <p>
 No. You don’t necessarily need a landline, but you can use a landline with Chillitalk. 
 
-   <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/sign_up">Click here to learn more
+   <a href="<?php echo base_url(); ?><?php echo $this->session->userdata('lang'); ?>/application/">Click here to learn more
    </a>.
       </p>  
   
